@@ -1,0 +1,2003 @@
+[
+  {
+    "_id": "660d58878be4c0f5e0b5c36e",
+    "product_name": "Thức ăn cho mèo Reflex Plus Thổ Nhĩ Kỳ",
+    "product_slug": "thuc-an-cho-meo-reflex-plus-tho-nhi-ky",
+    "category_id": "660c19756c72246fb20f3e9a",
+    "product_imgs": [
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-1",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-2",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-3",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-4",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-5",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-6",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Cá-ngừ-1.5kg-1",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Cá-ngừ-Choosy-1.5kg-1",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Cá-ngừ-Hairball-1.5kg-1",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Thịt-gà-1.5kg-1",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Thịt-gà-8kg-1",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Cá-ngừ-Choosy-1.5kg-1",
+      "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Thịt-gà-1.5kg-1"
+    ],
+    "product_short_description": "Thức ăn cho mèo hạt Reflex Plus Thổ Nhĩ Kỳ, hạt thức ăn cao cấp đến từ Thổ Nhĩ Kỳ. Hạt mèo Reflex Plus chứa hàm lượng dinh dưỡng cao, giàu vitamin, và khoáng chất cần thiết cho mèo cưng nhà bạn. ",
+    "product_description": "<h5>Hạt cho mèo Reflex Plus Thổ Nhĩ Kỳ chỉ dành cho mèo trên 12 tháng tuổi</h5>\n<p>Hạt được sản xuất bởi công ty Reflex - một trong thương hiệu thức ăn thú cưng hàng đầu Thổ Nhĩ Kỳ. Sản phẩm được thiết kế dành cho mèo trưởng thành, với hàm lượng dinh dưỡng, vitamin, và nhiều loại chất khoáng cần thiết cho mèo.</p>\n<p>Thành phần thức ăn hạt Reflex Plus gồm có:</p>\n<ul>\n<li>Protein gà (đã khử nước), Ngô, Mỡ gà, Gạo, Bột củ cải đường, Hương vị gan, Vitamin và Khoáng chất, Hạt lanh, Xylo-Oligosaccharides, Men bia, Muối, Yucca Schidigera, Chất bảo quản – Chất chống oxy hóa.</li>\n<li>Khoáng chất: Canxi, Phốt pho, Natri, Iốt, Kẽm, Đồng, Sắt, Selen.</li>\n</ul>\n<p>Đặc biệt, hạt có chứa Xylo-oligosaccharides (XOS) giúp tăng sức đề kháng, miễn dịch, cải thiện tiêu hóa, giảm tình trạng béo phì ở mèo.</p>\n",
+    "product_specifications": [
+      {
+        "name": "Thương hiệu",
+        "value": "Reflex"
+      },
+      {
+        "name": "Xuất xứ",
+        "value": "Thổ Nhĩ Kỳ"
+      },
+      {
+        "name": "Hướng dẫn bảo quản",
+        "value": "- Bảo quản nơi khô ráo, thoáng mát, tránh ẩm ướt. - Kẹp, đóng chặt miệng túi khi không sử dụng."
+      },
+      {
+        "name": "Cân nặng",
+        "value": "1,5kg"
+      },
+      {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    ],
+    "product_variants": [
+      {
+        "variant_name": "Cá ngừ 1.5kg",
+        "variant_slug": "ca-ngu-15kg",
+        "variant_price": 258999,
+        "variant_img": "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Cá-ngừ-Choosy-1.5kg-1",
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Thịt gà 1.5kg",
+        "variant_slug": "thit-ga-15kg",
+        "variant_price": 257599,
+        "variant_img": "SEO_Images/Products/P002/Thức-ăn-cho-mèo-Reflex-Plus-Thổ-Nhĩ-Kỳ-Thịt-gà-1.5kg-1",
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 171000,
+    "product_sold_quantity": 853,
+    "product_rating": {
+      "rating_point": 4.5,
+      "rating_count": 433
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c37e",
+    "product_name": "Pate cho mèo Reflex Plus",
+    "product_slug": "pate-cho-meo-reflex-plus",
+    "category_id": "660c19756c72246fb20f3e9b",
+    "product_imgs": [
+      "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-1",
+      "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Chicken-1",
+      "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Chiken-in-gravy-1",
+      "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Kitten-1",
+      "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Salmon-1",
+      "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Turkey-and-Duck-1"
+    ],
+    "product_short_description": "Reflex Plus Pate - lựa chọn lý tưởng cho mèo của bạn! Pate cho mèo Reflex Plus Lon 400gr là loại pate được làm từ công thức tuyệt hảo, mang đến cho mèo  những bữa ăn ngon miệng và đầy đủ dưỡng chất. Mỗi lát pate mềm mịn của là một hỗn hợp hoàn hảo của thịt thật và các thành phần dinh dưỡng cần thiết, giúp duy trì sức khỏe và sự hài lòng của mèo yêu nhà bạn. ",
+    "product_description": "\n      <h5>Pate cho mèo Reflex Plus Lon 400gr</h5>\n<p>Pate cho mèo Reflex Plus Lon 400gr là một loại pate được chế biến từ công thức hoàn hảo, mang lại cho mèo những bữa ăn ngon lành và giàu dinh dưỡng.</p>\n<p>Sản phẩm này phù hợp với mọi loại mèo ở mọi độ tuổi, được làm từ những nguyên liệu tươi ngon nhất từ biển như cá ngừ, cá hồi, kết hợp với thịt gà và thịt vịt để cung cấp đầy đủ protein cho sự phát triển toàn diện của mèo. Đồng thời, sản phẩm cung cấp đầy đủ khoáng chất và vitamin để hỗ trợ hệ miễn dịch của thú cưng.</p>\n\n<h5>Thành phần:</h5>\n            <ul>\n                <li>Thịt và các dẫn xuất từ ​​động vật (Gà 4% tối thiểu).</li>\n                <li> Ngũ cốc, Các dẫn xuất của Cá và Cá.</li>\n                <li>Khoáng chất, Rau củ.</li>\n                <li> Chiết xuất Protein, Chất bảo quản và Chất tạo màu.</li>\n            </ul>\n\n<h5>Công dụng:</h5>\n            <ul>\n                <li>- Bổ sung chất dinh dưỡng và đầy đủ các loại vitamin cùng khoáng chất đem đến sự cân bằng cho cơ thể mèo.</li>\n                <li>- Cung cấp vitamin E, Taurine và đạm dồi dào giúp phát triển toàn diện.</li>\n                <li>- Bổ sung lượng canxi dồi dào giúp xương khớp chắc khoẻ.</li>\n                <li>H- Bổ sung nước tối đa với, kết cấu mềm ẩm, nước dùng thơm ngon, có lợi cho đường ruột và đường tiết niệu.</li>\n                <li>- Cung cấp chất xơ, hỗ trợ hệ tiêu hoá.</li>\n            </ul>\n\n\n          <ul>Pate cho mèo Reflex Plus hiện có tới 5 hương vị khác nhau để bạn có thể lựa chọn cho mèo nhà mình:\n                <li>- Salmon.</li>\n                <li>- Chicken in Loaf.</li>\n                <li>- Chicken in Gravy.</li>\n                <li>- Turkey & Duck.</li>\n                <li>- Kitten chicken.</li>\n            </ul>\n\n<h5>Thương hiệu:</h5>\n            <p>Reflex.</p>\n\n <h5>Trọng lượng:</h5>\n            <p>400 gram.</p>\n      ",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Reflex"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Thổ Nhĩ Kỳ"
+      },
+      "preservation": {
+        "name": "Hướng dẫn bảo quản",
+        "value": "Bảo quản nơi khô ráo, thoáng mát, tránh ẩm ướt."
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "400 gram"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Salmon",
+        "variant_slug": "salmon",
+        "variant_price": 189199,
+        "variant_img": "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Salmon-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Chicken in Gravy",
+        "variant_slug": "chicken-in-gravy",
+        "variant_price": 189999,
+        "variant_img": "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Chiken-in-gravy-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Turkey & Duck",
+        "variant_slug": "turkey-and-duck",
+        "variant_price": 188599,
+        "variant_img": "SEO_Images/Products/P003/Pate-cho-mèo-Reflex-Plus-Lon-400gr-Turkey-and-Duck-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 125000,
+    "product_sold_quantity": 663,
+    "product_rating": {
+      "rating_point": 4.1,
+      "rating_count": 525
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c38b",
+    "product_name": "Pate cho mèo Neko Jelly đủ vị - Thái Lan",
+    "product_slug": "pate-cho-meo-neko-jelly-du-vi-thai-lan",
+    "category_id": "660c19756c72246fb20f3e9b",
+    "product_imgs": [
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-1",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-2",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-3",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-4",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-5",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-6",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-vị-cá hồi-1",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-vị-cá-tráp-1",
+      "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-vị-phô-mai-1"
+    ],
+    "product_short_description": "Pate gói cho mèo Neko Jelly, được chế biến từ 100% thịt cá ngừ và thịt gà được tuyển chọn kỹ lưỡng, tại Thái Lan. Gồm 6 hương vị hấp dẫn: pate cá cho mèo vị cá tráp, cá hồi, pate vị katsuobushi, tôm, sasami, và phô mai.",
+    "product_description": "<h5>Pate cho mèo Neko Jelly được làm 100% từ thịt cá ngừ và thịt gà được tuyển chọn kỹ lưỡng.</h5>\n<p>Sản phẩm được sản xuất tại Thái Lan với công nghệ hiện đại, đảm bảo an toàn cho mèo cưng nhà bạn.<p>\n<p>Pate Nekko Jelly có kết cấu dạng thạch, chứa vitamin E, taurine, omega 3, lợi khuẩn probiotic giúp cung cấp đầy đủ dinh dưỡng cho mèo yêu phát triển. Đồng thời, Pate Nekko Jelly được bổ sung kèm 6 hương vị hấp dẫn:</p>\n<ul>\n<li>Vị cá tráp</li>\n<li>Vị katsuobushi</li>\n<li>Vị tôm</li>\n<li>Vị sasami</li>\n<li>Vị phô mai</li>\n<li>Vị cá hồi</li>\n</ul>\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Nekko"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Thái Lan"
+      },
+      "preservation": {
+        "name": "Hướng dẫn bảo quản",
+        "value": "- Bảo quản nơi khô ráo, thoáng mát, tránh ẩm ướt. - Bảo quản lạnh, chỉ sử dụng tối đa 2 ngày sau khi mở. "
+      },
+      "expired_date": {
+        "name": "Hạn sử dụng",
+        "value": "1 năm"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "70 gram"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Cá hồi",
+        "variant_slug": "ca-hoi",
+        "variant_price": 28999,
+        "variant_img": "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-vị-cá-hồi-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Cá tráp",
+        "variant_slug": "ca-trap",
+        "variant_price": 27999,
+        "variant_img": "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-vị-cá-tráp-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Phô mai",
+        "variant_slug": "pho-mai",
+        "variant_price": 28999,
+        "variant_img": "SEO_Images/Products/P004/Pate-mèo-Nekko-Jelly-vị-phô-mai-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 18000,
+    "product_sold_quantity": 251,
+    "product_rating": {
+      "rating_point": 4.8,
+      "rating_count": 180
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c39b",
+    "product_name": "Cỏ mèo dán tường Catnip",
+    "product_slug": "co-meo-dan-tuong-catnip",
+    "category_id": "660c19756c72246fb20f3e9c",
+    "product_imgs": [
+      "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-1",
+      "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-2",
+      "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-3",
+      "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-4",
+      "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-5",
+      "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-6",
+      "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-Hình-quả-bơ-1"
+    ],
+    "product_short_description": "Cỏ mèo dán tường gắn viên catnip với nhiều hình dáng ngộ nghĩnh giúp mèo cưng của bạn xả stress và có những phút giây thoải mái nhất.",
+    "product_description": "<h5>Sản phẩm Cỏ mèo dán tường</h5>\n<p>Sản phẩm được chế tạo từ catnip tự nhiên với nhiều hình dáng ngộ nghĩnh.</p>\n<p>Cỏ mèo dán tường có công dụng:</p>\n<ul>\n  <li>\n    Giúp giảm căng thẳng cho mèo và kích thích hoạt động vận động.\n  </li>\n  <li>\n    Kích thích vị giác, giúp mèo ăn uống ngon miệng hơn.\n  </li>\n  <li>\n    Giúp mèo tự giữ vệ sinh bằng cách kích thích chúng cọ răng và móng.\n  </li>\n</ul>\n<p>Cỏ mèo dán tường rất tiện lợi. Bạn có thể gắn lên tường, chân bàn, ghế hay chân giường để mèo tự cọ mặt, thân vào viên catnip và tự mát xa. Sản phẩm này sẽ là sự lựa chọn số 1 cho mèo của bạn.</p>\n<h5>Kiểu dáng:</h5>\n     <p>Hình phi thuyền/ Hình quả bơ</p>\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "OEM"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "4,5 × 4,5cm"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "33g"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Quả bơ",
+        "variant_slug": "qua-bo",
+        "variant_price": 53000,
+        "variant_img": "SEO_Images/Products/P005/Cỏ-mèo-dán-tường-Hình-quả-bơ-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 35000,
+    "product_sold_quantity": 327,
+    "product_rating": {
+      "rating_point": 4.8,
+      "rating_count": 171
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c3b3",
+    "product_name": "Cát vệ sinh đậu nành Catsme",
+    "product_slug": "cat-ve-sinh-dau-nanh-catsme",
+    "category_id": "660c19756c72246fb20f3e9d",
+    "product_imgs": [
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-1",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-2",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-3",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-4",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-5",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-6",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-Sữa-1",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-Than-1",
+      "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-Trà-xanh-1"
+    ],
+    "product_short_description": "Cát vệ sinh đậu nành Catsme cho mèo từ nguyên liệu tự nhiên, an toàn và thân thiện với môi trường. Khử mùi hiệu quả, vón cục tốt, dễ dàng dọn dẹp. Ít bụi, không gây kích ứng cho mèo. Nhẹ và tiết kiệm, phù hợp cho mọi gia đình.",
+    "product_description": "<h5>Thông tin sản phẩm</h5>\n      <ul>\n        <li>Kích thước hạt: Đường kính 2mm</li>\n        <li>Thể tích: 6L</li>\n      </ul>\n      <h2>Phân loại</h2>\n      <ul>\n        <li>Green: hương trà xanh</li>\n        <li>Milk: hương sữa</li>\n        <li>Coffee: hương cà phê</li>\n        <li>Charcoal: Than hoạt tính (khử mùi, không hương)</li>\n      </ul>\n      <h5>Ưu điểm</h5>\n      <ul>\n        <li>Sản phẩm thân thiện với môi trường, được làm từ đậu nành thiên nhiên.</li>\n        <li>Dễ dàng hòa tan và nhanh chóng phân hủy trong nước.</li>\n        <li>Hấp thụ nước và kiểm soát mùi vượt trội</li>\n        <li>Với công thức vón cục ngay lập tức, các hạt cát hấp thụ hơn 4 lần trọng lượng của chúng ngay khi tiếp xúc với chất lỏng, các hạt cát sẽ tự trung hòa mùi amoniac trong nước tiểu của mèo.</li>\n        <li>Không bụi 99% giúp bảo vệ sức khỏe đường hô hấp cho mèo và Sen hiệu quả.</li>\n      </ul>\n      <h5>Cách sử dụng</h5>\n      <ol>\n        <li>Bước 1: Đổ cát và trải đều trong bồn cầu mèo, độ dày 5-6cm.</li>\n        <li>Bước 2: Sau khi mèo đi tiểu, nước được hấp thụ và trở nên đông cứng, vón cục.</li>\n        <li>Bước 3: Vứt bỏ Cát đậu phụ đông cứng bằng xẻng cát (Có thể đổ trực tiếp xuống bồn cầu)</li>\n      </ol>\n      <h5>Lưu ý</h5>\n      <ul>\n        <li>Hãy để xa tầm tay trẻ em và xin hãy cẩn thận đừng ăn</li>\n        <li>Khi đổ cát xuống bồn cầu, hãy đổ từ từ, tránh đổ một lượng lớn cùng một lúc gây tắc nghẽn bồn vệ sinh.</li>\n        <li>Bịt kín miệng túi cát còn lại sau khi sử dụng và bảo quản ở nơi khô ráo.</li>\n        <li>Để đạt hiệu quả nhất, nên thay toàn bộ cát mỗi tháng một lần.</li>\n      </ul>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Cats me"
+      },
+      "size": {
+        "name": "Kích thước hạt",
+        "value": "2mm"
+      },
+      "feature": {
+        "name": "Đặc điểm",
+        "value": "Vón cục, thấm hút cao, kiểm soát mùi"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "6Kg"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "12 tháng"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Catsme Sữa",
+        "variant_slug": "catsme-sua",
+        "variant_price": 121199,
+        "variant_img": "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-Sữa-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Catsme Than",
+        "variant_slug": "catsme-than",
+        "variant_price": 121599,
+        "variant_img": "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-Than-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Catsme Trà Xanh",
+        "variant_slug": "catsme-tra-xanh",
+        "variant_price": 121599,
+        "variant_img": "SEO_Images/Products/P008/Cát-đậu-nành-Catsme-Trà-xanh-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 80000,
+    "product_sold_quantity": 521,
+    "product_rating": {
+      "rating_point": 4.2,
+      "rating_count": 393
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c3d1",
+    "product_name": "Nhà vệ sinh cho mèo PAW Space Helmet Cat Litter Boxes",
+    "product_slug": "nha-ve-sinh-cho-meo-paw-space-helmet-cat-litter-boxes",
+    "category_id": "660c19756c72246fb20f3e9e",
+    "product_imgs": [
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-1",
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-2",
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-3",
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-4",
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-5",
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-6",
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-Màu-vàng-1",
+      "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-Màu-xám-1"
+    ],
+    "product_short_description": "Nhà vệ sinh cho mèo PAW Space Helmet mang đến cho mèo cưng của bạn một không gian vệ sinh riêng tư, thoải mái, và hiện đại. Nhà vệ sinh tự động cho mèo PAW Space Helmet được thiết kế thông minh, lấy ý tưởng từ mũ phi hành gia độc đáo, với khả năng tự động khử mùi, giúp giữ cho khu vực xung quanh luôn sạch sẽ, xinh đẹp.",
+    "product_description": "<h5>Nhà vệ sinh tự động cho mèo PAW Space Helmet, mang đến sự thoải mái và riêng tư cho mèo cưng của bạn!!!</h5>\n<p>Nhà vệ sinh mèo được thiết kế với phong cách độc đáo, thu hút:</p>\n<ul>\n<li>Dựa trên hình mũ phi hành gia hiện đại, bắt mắt, tạo điểm nhấn cho không gian ngôi nhà.</li>\n<li>Cửa ra vào thông minh với thiết kế lưới giúp giữ cát bẩn bên trong, hạn chế tối đa việc cát văng tung tóe ra ngoài.</li>\n</ul>\n<p>Đồng thời, nhà vệ sinh mèo có thiết kế thông minh, tiện lợi tạo sự thoải thoải mái cho mèo cưng:</p>\n<ul>\n<li>Cung cấp không gian rộng rãi, thoải mái cho mèo cưng thỏa sức sử dụng.</li>\n<li>Thiết kế cửa ra vào cao, giúp mèo dễ dàng di chuyển ra vào, đặc biệt phù hợp với mèo lớn.</li>\n<li>Có chức năng tự động khử mùi, nắp đậy kín đáo giữ mùi hôi bên trong, đảm bảo vệ sinh cho không gian xung quanh.</li>\n</ul>\n<p>Sử dụng chất liệu cao cấp: Loại nhựa PP an toàn, bền bỉ, dễ dàng vệ sinh. Bề mặt nhà vệ sinh nhẵn mịn giúp hạn chế bám dính cát bẩn.</p>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "PAW"
+      },
+      "country": {
+        "name": "Xuất xứ",
+        "value": "Đài Loan"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "53 × 40 × 40 cm"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Đen, Xanh lá, Vàng cam, Ghi xám, Hồng, Xanh cổ vịt."
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Màu xám",
+        "variant_slug": "mau-xam",
+        "variant_price": 788199,
+        "variant_img": "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-Màu-xám-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Màu vàng",
+        "variant_slug": "mau-vang",
+        "variant_price": 788599,
+        "variant_img": "SEO_Images/Products/P011/Nhà-vệ-sinh-cho-mèo-PAW-Space-Helmet-Cat-Màu-vàng-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 525000,
+    "product_sold_quantity": 949,
+    "product_rating": {
+      "rating_point": 4.1,
+      "rating_count": 774
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c3ec",
+    "product_name": "Đệm cho mèo, giường mèo siêu dễ thương, gọn nhẹ, đa dạng kiểu dáng",
+    "product_slug": "dem-cho-meo-giuong-meo-sieu-de-thuong-gon-nhe-da-dang-kieu-dang",
+    "category_id": "660c19756c72246fb20f3e9f",
+    "product_imgs": [
+      "SEO_Images/Products/P014/dem-cho-meo-sieu-de-thuong-gon-nhe-da-dang-kieu-dang-lua-chon-bo",
+      "SEO_Images/Products/P014/dem-cho-meo-sieu-de-thuong-gon-nhe-da-dang-kieu-dang-lua-chon-gau-hong",
+      "SEO_Images/Products/P014/dem-cho-meo-sieu-de-thuong-gon-nhe-da-dang-kieu-dang-lua-chon-gau-nau"
+    ],
+    "product_short_description": "Mua đệm cho mèo siêu dễ thương, gọn nhẹ, đa dạng kiểu dáng, lựa chọn, giá rẻ. Mua hàng qua mạng uy tín, tiện lợi. Forcat đảm bảo nhận hàng, hoặc đảm bảo giao hàng nhanh, tiện lợi. XEM NGAY!",
+    "product_description": "<p>Muốn mua đệm ngủ cho mèo, XEM ngay <strong>Đệm Cho Mèo, Giường Mèo Siêu Dễ Thương, Gọn Nhẹ, Đa Dạng Kiểu Dáng, Lựa Chọn</strong>. Được làm từ vải dày <strong>cao cấp, êm ái</strong> thiết kế <strong>dễ thương</strong>.</p>\n  <h5><strong>Thiết kế tinh tế:</strong></h5>\n  <ul style=\"list-style-type: disc;\">\n    <li>Được làm từ vải dày <strong>cao cấp</strong>, <strong>êm ái</strong>.\n    </li>\n    <li>Đệm rất <strong>mềm mịn</strong> và <strong>thoải mái</strong>, tạo cảm giác ấm áp giúp mèo cưng có <strong>giấc ngủ ngon</strong>.</li>\n    <li>Được thiết kế có vành tài, màu sắc <strong>trang nhã</strong>.</li>\n  </ul>\n  <h5><strong>Chất liệu cao cấp:</strong></h5>\n  <ul>\n    <li>Vải dày <strong>Cotton</strong></li>\n    <li>Bông PP</li>\n  </ul>\n  <p></p>\n  <h5><strong>Kích thước gọn nhẹ, đa dạng chọn lựa:</strong></h5>\n  <ul>\n    <li>Chiều dài: 40cm</li>\n    <li>Chiều rộng: 44cm</li>\n    <li>Chiều cao: 34cm</li>\n  </ul>",
+    "product_specifications": {
+      "length": {
+        "name": "Chiều dài",
+        "value": "40 cm"
+      },
+      "width": {
+        "name": "Chiều rộng",
+        "value": "44cm"
+      },
+      "height": {
+        "name": "Chiều cao",
+        "value": "34cm"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "Vải Cotton, bông PP 3D"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Bò",
+        "variant_slug": "bo",
+        "variant_price": 436999,
+        "variant_img": "SEO_Images/Products/P014/dem-cho-meo-sieu-de-thuong-gon-nhe-da-dang-kieu-dang-lua-chon-bo",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Gấu hồng",
+        "variant_slug": "gau-hong",
+        "variant_price": 436599,
+        "variant_img": "SEO_Images/Products/P014/dem-cho-meo-sieu-de-thuong-gon-nhe-da-dang-kieu-dang-lua-chon-gau-hong",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Gấu nâu",
+        "variant_slug": "gau-nau",
+        "variant_price": 435999,
+        "variant_img": "SEO_Images/Products/P014/dem-cho-meo-sieu-de-thuong-gon-nhe-da-dang-kieu-dang-lua-chon-gau-nau",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 290000,
+    "product_sold_quantity": 492,
+    "product_rating": {
+      "rating_point": 4.4,
+      "rating_count": 407
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c3f6",
+    "product_name": "[CATTREE] - Nhà cây cho mèo 3 tầng siêu cute, đa dạng màu sắc",
+    "product_slug": "cattree-nha-cay-cho-meo-3-tang-sieu-cute-da-dang-mau-sac",
+    "category_id": "660c19756c72246fb20f3ea1",
+    "product_imgs": [
+      "SEO_Images/Products/P015/cattree-nha-cay-cho-meo-3-tang-sieu-cute-da-dang-mau-sac-den",
+      "SEO_Images/Products/P015/cattree-nha-cay-cho-meo-3-tang-sieu-cute-da-dang-mau-sac-trang-sua",
+      "SEO_Images/Products/P015/cattree-nha-cay-cho-meo-3-tang-sieu-cute-da-dang-mau-sac-xam"
+    ],
+    "product_short_description": "Mua [CATTREE] - Nhà Cây Cho Mèo 3 Tầng Siêu Cute, Đa Dạng Màu Sắc. Đảm bảo giá tốt, giao hàng nhanh, tiện lợi. MUA NGAY!",
+    "product_description": "<p>Cần nơi vui chơi cho mèo hay sợ mèo yêu cào phá đồ đạc trong nhà, xem ngay\n    <strong>[CATTREE] - Nhà Cây Cho Mèo 3 Tầng Siêu Cute, Đa Dạng Màu\n      Sắc</strong>. Được làm từ vải dày <strong>cao cấp, êm\n      ái</strong> thiết kế <strong>dễ thương</strong>.\n  </p>\n  <h5><strong>Chất liệu cao cấp:</strong></h5>\n  <ul>\n    <li>Gỗ công nghiệp, thừng đay tự nhiên không gây ảnh hưởng xấu đến sức khỏe\n      của mèo yêu của bạn.</li>\n    <li>Vải lông siêu giày mềm mượt khó rách.</li>\n  </ul>\n  <h5><strong>Dễ dàng vệ sinh:</strong></h5>\n  <ul>\n    <li>Sản phẩm có thể giặt và dành cho nhiều boss chơi cùng lúc.</li>\n  </ul>\n  <h5><strong>Đa dạng màu sắc:</strong></h5>\n  <ul>\n    <li>Màu đen tuyền</li>\n    <li>Màu trắng sữa</li>\n    <li>Màu xám</li>\n    <li>Màu xanh ngọc</li>\n  </ul>",
+    "product_specifications": {
+      "length": {
+        "name": "Chiều dài",
+        "value": "35 cm"
+      },
+      "width": {
+        "name": "Chiều rộng",
+        "value": "50cm"
+      },
+      "height": {
+        "name": "Chiều cao",
+        "value": "54 cm"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "Gỗ công nghiệp, thừng đay"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Đen",
+        "variant_slug": "den",
+        "variant_price": 451999,
+        "variant_img": "SEO_Images/Products/P015/cattree-nha-cay-cho-meo-3-tang-sieu-cute-da-dang-mau-sac-den",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Trắng sữa",
+        "variant_slug": "trang-sua",
+        "variant_price": 451599,
+        "variant_img": "SEO_Images/Products/P015/cattree-nha-cay-cho-meo-3-tang-sieu-cute-da-dang-mau-sac-trang-sua",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Xám",
+        "variant_slug": "xam",
+        "variant_price": 451199,
+        "variant_img": "SEO_Images/Products/P015/cattree-nha-cay-cho-meo-3-tang-sieu-cute-da-dang-mau-sac-xam",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 300000,
+    "product_sold_quantity": 603,
+    "product_rating": {
+      "rating_point": 4.3,
+      "rating_count": 325
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c3fe",
+    "product_name": "Bóng mài móng cho mèo DORRYKEY đa dạng kích thước đồ chơi",
+    "product_slug": "bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi",
+    "category_id": "660c19756c72246fb20f3ea5",
+    "product_imgs": [
+      "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_1",
+      "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_2",
+      "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_3",
+      "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_size_l",
+      "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_size_m",
+      "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_size_s"
+    ],
+    "product_short_description": "Đồ chơi cho mèo cưng, bóng mài móng DORRIKEY với giá ưu đãi, mua online tiện lợi. Giao hàng nhanh từ forcatshop. Khám phá ngay!",
+    "product_description": "<p>H&agrave;ng h&oacute;a: Phụ kiện cho m&egrave;o, Đồ chơi cho m&egrave;o, B&oacute;ng m&agrave;i m&oacute;ng vuốt m&egrave;o.</p>\n<p>Sản phẩm c&oacute; ba k&iacute;ch thước để kh&aacute;ch h&agrave;ng t&ugrave;y chọn ph&ugrave; hợp với nhu cầu:</p>\n<ul>\n<li>K&iacute;ch thước nhỏ (Size S): Chiều d&agrave;i 18 cm, Chiều rộng 18 cm, Chiều cao 16 cm, Đường k&iacute;nh b&oacute;ng: 12 cm.</li>\n<li>K&iacute;ch thước nhỏ (Size M): Chiều d&agrave;i 22 cm, Chiều rộng 18 cm, Chiều cao 16 cm, Đường k&iacute;nh b&oacute;ng: 16 cm.</li>\n<li>K&iacute;ch thước nhỏ (Size S): Chiều d&agrave;i 25 cm, Chiều rộng 28 cm, Chiều cao 24 cm, Đường k&iacute;nh b&oacute;ng: 20 cm.</li>\n</ul>\n<p>L&yacute; do n&ecirc;n mua sản phẩm:</p>\n<ul>\n<li>Bảo vệ đồ đạc của bạn: Đồ chơi b&oacute;ng c&agrave;o m&egrave;o Sisal n&agrave;y được l&agrave;m bằng gỗ cứng bền v&agrave; b&oacute;ng Sisal tự nhi&ecirc;n, được đặt ở nơi m&egrave;o th&iacute;ch đi trong ph&ograve;ng kh&aacute;ch, ph&ograve;ng ngủ, v.v., c&oacute; thể Bảo vệ đồ đạc như ghế sofa khỏi bị m&egrave;o c&agrave;o.</li>\n<li>An to&agrave;n v&agrave; chất lượng cao: Phần đế của ch&acirc;n m&aacute;y được thiết kế để hỗ trợ b&oacute;ng Sisal, ổn định v&agrave; kh&oacute; rơi, để m&egrave;o kh&ocirc;ng bị thương v&agrave; an to&agrave;n hơn khi chơi với đồ chơi n&agrave;y. B&oacute;ng C&agrave;o M&egrave;o Được L&agrave;m Bằng Chất Liệu Bền V&agrave; Th&acirc;n Thiện Với M&ocirc;i Trường, Sẽ Kh&ocirc;ng Dễ D&agrave;ng Ph&acirc;n T&aacute;n Gi&aacute; Đỡ.</li>\n<li>Đồ chơi m&egrave;o th&uacute; vị: Loại đồ chơi m&egrave;o Sisal n&agrave;y kh&aacute;c với đồ chơi m&egrave;o th&ocirc;ng thường v&agrave; thiết kế rỗng độc đ&aacute;o đ&aacute;p ứng sự t&ograve; m&ograve; của m&egrave;o, kết hợp với đặc điểm m&agrave; m&egrave;o tự nhi&ecirc;n giống như lỗ đục lỗ, Sisal xoay B&oacute;ng cũng c&oacute; thể thu h&uacute;t rất nhiều sự ch&uacute; &yacute; của m&egrave;o.</li>\n<li>Dễ d&agrave;ng lắp đặt: Việc lắp đặt rất đơn giản, chỉ cần nối bảng tam gi&aacute;c v&agrave; gỗ, đặt quả b&oacute;ng m&egrave;o Sisal l&ecirc;n lớp gỗ tr&ecirc;n c&ugrave;ng, sau đ&oacute; đặt một tấm gỗ kh&aacute;c l&ecirc;n gỗ, v&agrave; sau đ&oacute; Vặn chặt ba v&iacute;t tr&ecirc;n bảng gỗ.</li>\n</ul>\n<p>Một số điểm nổi bật của sản phẩm như:</p>\n<ul>\n<li>Ch&acirc;n đế bằng gỗ rắn, b&oacute;ng Sisal tự nhi&ecirc;n mềm mại v&agrave; b&oacute;ng.</li>\n<li>Th&iacute;ch hợp cho m&egrave;o m&agrave;i m&oacute;ng vuốt m&agrave; kh&ocirc;ng bị mảnh vỡ rơi ra.</li>\n<li>Thiết kế đơn giản nhưng hiệu quả cao.</li>\n</ul>\n<p>Để đảm bảo sức khỏe cho m&egrave;o, h&atilde;y thử sử dụng b&oacute;ng Sisal tự nhi&ecirc;n của ch&uacute;ng t&ocirc;i. B&oacute;ng n&agrave;y kh&ocirc;ng chỉ đ&aacute;p ứng nhu cầu m&agrave;i m&oacute;ng của m&egrave;o m&agrave; c&ograve;n l&agrave;m cho m&egrave;o vui vẻ hơn. Được thiết kế để quay khi m&egrave;o nhảy l&ecirc;n v&agrave; vỗ nhẹ, đồ chơi n&agrave;y th&uacute; vị v&agrave; an to&agrave;n cho m&egrave;o. N&oacute; kh&ocirc;ng chỉ thỏa m&atilde;n sự t&ograve; m&ograve; của m&egrave;o m&agrave; c&ograve;n gi&uacute;p m&egrave;o nghỉ ngơi thoải m&aacute;i. B&ecirc;n cạnh đ&oacute;, khi m&egrave;o chơi với đồ chơi n&agrave;y, n&oacute; cũng đồng thời tập thể dục, gi&uacute;p cải thiện sức khỏe thể chất v&agrave; tinh thần của m&egrave;o.</p>\n<p>Đế h&igrave;nh tam gi&aacute;c kết hợp với b&oacute;ng Sisal bền chắc, an to&agrave;n v&agrave; thu h&uacute;t m&egrave;o một c&aacute;ch tự nhi&ecirc;n. Sử dụng Sisal tự nhi&ecirc;n kết hợp với gỗ rắn gi&uacute;p m&egrave;o chơi một c&aacute;ch khỏe mạnh v&agrave; an to&agrave;n hơn. Nếu bạn rắc Catnip l&ecirc;n b&oacute;ng Sisal, m&egrave;o sẽ th&iacute;ch n&oacute; hơn.</p>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "DORRIKEY"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "guarentee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "<b>S</b>: Dài 18 cm, Rộng 18 cm, Cao 16 cm, Đường kính: 12 cm<br><b>M</b>: Dài 22 cm, Rộng 18 cm, Cao 16 cm, Đường kính: 16 cm<br><b>L</b>: Dài 25 cm, Rộng 28 cm, Cao 24 cm, Đường kính: 20 cm"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "size S",
+        "variant_slug": "size-s",
+        "variant_price": 346000,
+        "variant_img": "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_size_s",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "size M",
+        "variant_slug": "size-m",
+        "variant_price": 450999,
+        "variant_img": "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_size_m",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "size L",
+        "variant_slug": "size-l",
+        "variant_price": 578599,
+        "variant_img": "SEO_Images/Products/P016/bong-mai-mong-cho-meo-dorrykey-da-dang-kich-thuoc-do-choi_size_l",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 250000,
+    "product_sold_quantity": 833,
+    "product_rating": {
+      "rating_point": 4.1,
+      "rating_count": 579
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c40f",
+    "product_name": "Áo choàng HIPIDOG hóa trang Harry Potter cho mèo siêu xinh",
+    "product_slug": "ao-choang-hipidog-hoa-trang-harry-potter-cho-meo-sieu-xinh",
+    "category_id": "660c19756c72246fb20f3ea2",
+    "product_imgs": [
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-1",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-2",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-3",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-4",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-5",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-6",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-Đỏ-1",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-Vàng-1",
+      "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-Xanh-1"
+    ],
+    "product_short_description": "Áo choàng HIPIDOG, hóa trang Harry Potter với thiết kế độc đáo, chất liệu mềm mại mang đến cho thú cưng của bạn một diện mạo độc đáo và đáng yêu.",
+    "product_description": "<h5>Lợi ích</h5>\n            <ul>\n                <li>Mang đến cho thú cưng vẻ ngoài độc đáo và đáng yêu.</li>\n                <li>Giúp thú cưng hòa mình vào không khí Halloween, cosplay, chụp ảnh.</li>\n                <li>Tạo sự thích thú và vui vẻ cho thú cưng và chủ nhân.</li>\n            </ul>\n<h5>Đặc điểm</h5>\n            <ul>\n                <li>Thiết kế độc đáo: Giống hệt áo choàng Harry Potter, có logo Gryffindor.</li>\n                <li>Chất liệu mềm mại: Thoải mái cho thú cưng khi mặc.</li>\n                <li>Dễ dàng mặc vào và cởi ra: Có khóa dán tiện lợi.</li>\n                <li>Phù hợp cho nhiều dịp: Halloween, cosplay, chụp ảnh,...</li>\n                <li>Nhiều kích cỡ: Phù hợp với nhiều giống chó mèo.</li>\n            </ul>\n<h5>Cách sử dụng</h5>\n            <ol>\n                <li>Chọn kích cỡ phù hợp với thú cưng của bạn.</li>\n                <li>Mở khóa dán và cho thú cưng mặc vào.</li>\n                <li>Dán khóa dán để cố định áo choàng.</li>\n            </ol>\n<h5>Lưu ý</h5>\n            <ul>\n                <li>Giặt tay hoặc giặt máy với nước lạnh.</li>\n                <li>Phơi khô tự nhiên hoặc sấy ở nhiệt độ thấp.</li>\n            </ul>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "HIPIDOG"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "Vải nhung mềm mại"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Xanh, Vàng, Đỏ"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "XS, S, M, L, XL (phù hợp cho nhiều giống chó mèo)"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Đỏ size S",
+        "variant_slug": "do-size-s",
+        "variant_price": 33999,
+        "variant_img": "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-Đỏ-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Vàng size S",
+        "variant_slug": "vang-size-s",
+        "variant_price": 33199,
+        "variant_img": "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-Vàng-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Xanh size S",
+        "variant_slug": "xanh-size-s",
+        "variant_price": 33599,
+        "variant_img": "SEO_Images/Products/P018/Áo-choàng-HIPIDOG-hóa-trang-Harry-Potter-Xanh-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 21000,
+    "product_sold_quantity": 308,
+    "product_rating": {
+      "rating_point": 4.7,
+      "rating_count": 246
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c41f",
+    "product_name": "Quần áo nỉ bông cho mèo giữ ấm dễ thương",
+    "product_slug": "quan-ao-ni-bong-cho-meo-giu-am-de-thuong",
+    "category_id": "660c19756c72246fb20f3ea2",
+    "product_imgs": [
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-1",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-2",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-3",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-4",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-5",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-6",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-Hồng-đậm-1",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-Vàng-đất-1",
+      "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-Xanh-nhạt-1"
+    ],
+    "product_short_description": "Quần áo nỉ bông cho mèo với chất liệu nỉ bông mềm mại và thiết kế thời trang phong cách sẽ mang đến cho mèo cưng của bạn sự ấm áp, thoải mái.",
+    "product_description": "<h5>Ưu điểm</h5>\n            <ul>\n                <li>Giữ ấm cho mèo cưng trong mùa lạnh.</li>\n                <li>Mang đến sự thoải mái và phong cách.</li>\n                <li>Dễ dàng mặc vào và cởi ra.</li>\n                <li>Phù hợp cho nhiều dịp: đi chơi, chụp ảnh, dự tiệc,...</li>\n                <li>Giá cả hợp lý.</li>\n                <li>Dễ dàng vệ sinh.</li>\n                <li>Độ bền cao.</li>\n            </ul>\n<h5>Đặc điểm</h5>\n            <ul>\n                <li>Chất liệu: Nỉ bông mềm mại, ấm áp</li>\n                <li>Thiết kế: Thời trang, đa dạng mẫu mã</li>\n                <li>Kích cỡ: Phù hợp với nhiều giống mèo</li>\n            </ul>",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "Nỉ bông mềm mại"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Nhiều màu (tùy chọn)"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "XS, S, M, L, XL (phù hợp cho nhiều giống chó mèo)"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Hồng đậm",
+        "variant_slug": "hong-dam",
+        "variant_price": 76599,
+        "variant_img": "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-Hồng-đậm-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Vàng đất",
+        "variant_slug": "vang-dat",
+        "variant_price": 75999,
+        "variant_img": "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-Vàng-đất-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Xanh",
+        "variant_slug": "xanh",
+        "variant_price": 75999,
+        "variant_img": "SEO_Images/Products/P019/Quần-áo-nỉ-bông_-cho-mèo-giữ-ấm-Xanh-nhạt-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 50000,
+    "product_sold_quantity": 744,
+    "product_rating": {
+      "rating_point": 4.1,
+      "rating_count": 388
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c42f",
+    "product_name": "Vòng chuông bấm xinh cho mèo",
+    "product_slug": "vong-chuong-bam-xinh-cho-meo",
+    "category_id": "660c19756c72246fb20f3ea3",
+    "product_imgs": [
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-1",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-2",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-3",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-4",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-5",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-6",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-xanh-1",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-nâu-1",
+      "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-hồng-1"
+    ],
+    "product_short_description": "Vòng chuông bấm cho mèo là giải pháp hoàn hảo cho bạn! Vòng chuông được làm từ chất liệu an toàn, có kích thước nhỏ gọn và thiết kế dễ thương, phù hợp với mọi giống mèo.",
+    "product_description": "<h5>Lợi ích</h5>\n            <ul>\n                <li>Giúp bạn dễ dàng tìm thấy mèo cưng.</li>\n                <li>Hỗ trợ huấn luyện mèo đi vệ sinh đúng chỗ và ngừng các hành vi không mong muốn.</li>\n                <li>Kích thích tính tò mò và hoạt động của mèo, giúp giảm nguy cơ béo phì.</li>\n            </ul>\n<h5>Đặc điểm</h5>\n            <ul>\n                <li>Thiết kế nhỏ gọn, trọng lượng nhẹ.</li>\n                <li>Chất liệu an toàn, không gây kích ứng da.</li>\n                <li> m thanh vui tai, dễ nghe.</li>\n                <li>Nhiều màu sắc lựa chọn.</li>\n            </ul>",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "Nhựa cao cấp, an toàn cho thú cưng"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Nhiều màu (tùy chọn)"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "Một cỡ (vừa với hầu hết các giống mèo)"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Xanh",
+        "variant_slug": "xanh",
+        "variant_price": 17599,
+        "variant_img": "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-xanh-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Nâu",
+        "variant_slug": "nau",
+        "variant_price": 18199,
+        "variant_img": "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-nâu-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Hồng",
+        "variant_slug": "hong",
+        "variant_price": 18599,
+        "variant_img": "SEO_Images/Products/P020/Vòng-cổ-bấm-cho-mèo-hồng-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 11111,
+    "product_sold_quantity": 206,
+    "product_rating": {
+      "rating_point": 4.6,
+      "rating_count": 131
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c45c",
+    "product_name": "Lồng mèo nan ống 3 tầng FORCAT",
+    "product_slug": "long-meo-nan-ong-3-tang-forcat",
+    "category_id": "660c19756c72246fb20f3ea4",
+    "product_imgs": [
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-1",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-2",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-3",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-4",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-5",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-6",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-7",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-Đen-1",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-Trắng-1",
+      "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-Xanh-1"
+    ],
+    "product_short_description": "Lồng mèo nhà ForCat có thiết kế đa tầng cung cấp không gian rộng rãi, làm từ chất liệu chắc chắn, an toàn đảm bảo sự bền bỉ và sự an toàn cho thú cưng của bạn. Lồng được thiết kế thông thoáng và dễ dàng vệ sinh, giúp duy trì môi trường sống sạch sẽ cho mèo.",
+    "product_description": "<h5>Lồng mèo nan ống 3 tầng</h5>\n<p>\nĐảm bảo chất lượng 100% - Lồng mèo nhà ForCat được thiết kế hiện đại, chắc chắn, mang đến cho thú cưng của bạn một ngôi nhà an toàn và cho bạn đủ lý do để chọn sản phẩm của chúng tôi.\n</p>\n<h5>Ưu điểm:</h5>\n            <ul>\n                <li>Lồng cho mèo được thiết kế với bánh xe đa năng thuận tiện cho việc di chuyển.</li>\n                <li>Ngăn chặn cát hoặc hạt rơi xuống sàn, thuận tiện cho việc lau chùi, vệ sinh.</li>\n                <li>Khóa cửa chống va chạm.</li>\n            </ul>\n<h5>Kích thước:</h5>\n            <ul>\n                <li>S: 79 x 63 x 97cm.</li>\n                <li>M: 79 x 63 x 145cm.</li>\n            </ul>\n\n<h5>Lưu ý:</h5>\n            <ul>\n                <li>1. Kích thước lồng cho mèo được đo thủ công, có thể chênh lệch 1-3cm.</li>\n                <li>2. Màu sắc của lồng mèo có thể thay đổi một chút do độ hiển thị khác nhau.</li>\n                <li>3. Ngoại trừ lồng cho mèo, những thứ khác trong hình chỉ là đồ trang trí và không bán kèm theo sản phẩm.</li>\n            </ul>\n",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "Thép mạ kẽm"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Trắng, Đen, Xanh"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "S, M"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Trắng size M",
+        "variant_slug": "trang-size-m",
+        "variant_price": 4336199,
+        "variant_img": "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-Trắng-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Đen size M",
+        "variant_slug": "den-size-m",
+        "variant_price": 4336999,
+        "variant_img": "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-Đen-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Xanh size M",
+        "variant_slug": "xanh-size-m",
+        "variant_price": 4336599,
+        "variant_img": "SEO_Images/Products/P023/Lồng-mèo-nan-ống-3-tầng-Xanh-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 2890000,
+    "product_sold_quantity": 351,
+    "product_rating": {
+      "rating_point": 4.9,
+      "rating_count": 287
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c46d",
+    "product_name": "Cá nhồi bông đồ chơi cho mèo",
+    "product_slug": "ca-nhoi-bong-do-choi-cho-meo",
+    "category_id": "660c19756c72246fb20f3ea5",
+    "product_imgs": [
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-1",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-2",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-3",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-4",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-5",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-6",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-Cá-hề-1",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-Cá-trắm-cỏ-1",
+      "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-Cá-hồi-1"
+    ],
+    "product_short_description": "Khám phá sự vui nhộn và kích thích với đồ chơi cá giả dành cho mèo. Thiết kế chân thực của nó sẽ kích thích bản năng săn mồi tự nhiên của mèo, giúp kích thích hoạt động và giảm căng thẳng. Với chất liệu an toàn và bền bỉ, cá nhồi bông đồ chơi này sẽ cung cấp giờ giải trí không giới hạn cho mèo của bạn. ",
+    "product_description": "<h5>Cá nhồi bông đồ chơi cho mèo</h5>\n<h5>Đặc điểm:</h5>\n            <ul>\n                <li>Cá nhồi bông đồ chơi được làm từ vật liệu cao cấp, bền bỉ.</li>\n                <li>Bông mềm bên trong có bột cỏ bạc hà, làm cho mèo chơi có cảm giác thoải mái.</li>\n                <li>Thiết kế hình con cá xuất phát từ bản chất của mèo, có thể thu hút sự chú ý của mèo, để chúng dành nhiều thời gian chơi với đồ chơi này.</li>\n            </ul>\n<h5>Lợi ích:</h5>\n            <ul>\n                <li>Cá nhồi bông đồ chơi có thể đồng hành cùng mèo tránh nhàm chán khi chủ vắng nhà.</li>\n                <li>Đồ chơi có thể giúp mèo vận động một số bài tập có lợi cho sức khỏe, xoa dịu tâm trạng không vui và giải tỏa áp lực.</li>\n            </ul>\n<h5>Kích thước:</h5>\n            <p>Khoảng 16-20cm</p>\n<h5>Phân loại:</h5>\n            <p>Cá thu/Cá thu đao/Cá hề/Cá diếc/Cá chép/Cá rồng vàng/Cá hồi/Cá trắm cỏ</p>\n",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "Bông"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Nhiều màu sắc"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "1 kích cỡ"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Cá hề",
+        "variant_slug": "ca-he",
+        "variant_price": 39599,
+        "variant_img": "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-Cá-hề-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Cá trắm",
+        "variant_slug": "ca-tram",
+        "variant_price": 50000,
+        "variant_img": "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-Cá-trắm-cỏ-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Cá hồi",
+        "variant_slug": "ca-hoi",
+        "variant_price": 39199,
+        "variant_img": "SEO_Images/Products/P024/Cá-nhồi-bông-đồ-chơi-cho-mèo-Cá-hồi-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 25000,
+    "product_sold_quantity": 990,
+    "product_rating": {
+      "rating_point": 4.7,
+      "rating_count": 798
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c48c",
+    "product_name": "Đồ chơi bóng ma thuật cho mèo FOFOS",
+    "product_slug": "do-choi-bong-ma-thuat-cho-meo-fofos",
+    "category_id": "660c19756c72246fb20f3ea5",
+    "product_imgs": [
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-1",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-2",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-3",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-4",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-5",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-6",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-7",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-8",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-Vàng-1",
+      "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-Xanh-1"
+    ],
+    "product_short_description": "Đồ chơi bóng ma thuật cho mèo là một cách tuyệt vời để kích thích hoạt động và sự hứng thú cho mèo cưng của bạn. Với chuyển động khó đoán và đèn LED sặc sỡ, bóng ma thuật thu hút mèo của bạn vào trò chơi đuổi bắt, giúp cải thiện sức khỏe và tạo ra những khoảnh khắc vui nhộn và đáng nhớ.",
+    "product_description": "<h5>Đồ chơi bóng ma thuật cho mèo FOFOS</h5>\n<h5>Đặc điểm:</h5>\n            <ul>\n                <li>Đèn led sặc sỡ thu hút mèo, không gây hại cho mắt.</li>\n                <li>Đồ chơi cảm biến tự động hoạt động bằng sạc USB, luôn sẵn sàng để chơi mỗi khi mèo lại gần.</li>\n                <li>Dễ dàng cài đặt, vào chế độ ngủ sau 3 phút không hoạt động, tiết kiệm năng lượng, thân thiện với môi trường.</li>\n                <li>Chất liệu nhựa ABS cao cấp, bền bỉ chịu được lực va đập mạnh khi chơi.</li>\n                <li>Bóng đồ chơi tự đổi hướng khi va đập vào chân bàn hay góc tường.</li>\n            </ul>\n\n<h5>Lợi ích:</h5>\n            <ul>\n                <li>Cơ chế đuổi bắt vui nhộn khiến mèo thích thú, kích thích tinh thần và thể chất của mèo, khiến mèo phần khích, giữ chân chúng và khơi dậy bản năng săn mồi của chúng.</li>\n                <li> Hạn chế việc mèo bị stress và phá hoại đồ đạc trong nhà.</li>\n            </ul>\n\n<h5>Thương hiệu:</h5>\n            <p>FOFOS.</p>\n",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "ABS, PVC"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Xanh, Vàng"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "1 kích cỡ, 60 x 80mm"
+      },
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "FOFOS"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Màu vàng",
+        "variant_slug": "mau-vang",
+        "variant_price": 285000,
+        "variant_img": "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-Vàng-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Màu xanh",
+        "variant_slug": "mau-xanh",
+        "variant_price": 285199,
+        "variant_img": "SEO_Images/Products/P027/Đồ-chơi-bóng-ma-thuật-cho-mèo-FOFOS-Xanh-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 189000,
+    "product_sold_quantity": 599,
+    "product_rating": {
+      "rating_point": 4.4,
+      "rating_count": 535
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c49b",
+    "product_name": "Đồ chơi lật đật ăn hạt tự động cho mèo DORRIKEY",
+    "product_slug": "do-choi-lat-dat-an-hat-tu-dong-cho-meo-dorrikey",
+    "category_id": "660c19756c72246fb20f3ea5",
+    "product_imgs": [
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-1",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-2",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-3",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-4",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-5",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-6",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-7",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-Cừu-trắng-1",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-Jinniu-nâu-1",
+      "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-Tororo-xám-1"
+    ],
+    "product_short_description": "Đồ chơi cho mèo lật đật ăn hạt tự động cho mèo DORRIKEY là một cách tuyệt vời để giữ cho mèo của bạn hoạt động và tò mò. Với thiết kế tự động lật đật và phát ra hạt khi mèo chơi, sản phẩm này sẽ kích thích bản năng săn mồi tự nhiên của mèo và giúp chúng tăng cường hoạt động vận động.",
+    "product_description": "<h5>Đồ chơi lật đật ăn hạt tự động cho mèo DORRIKEY</h5>\n<h5>Lợi ích:</h5>\n            <ul>\n                <li>Món đồ chơi cho mèo giúp huấn luyện kỹ năng và kích thích sự thèm ăn của mèo cưng.</li>\n                <li> Giúp tạo thêm niềm vui khi ăn, đồng thời là một món đồ chơi giúp mèo vận động cho một sức khỏe tốt.</li>\n            </ul>\n\n<h5>Thương hiệu:</h5>\n            <p>DORRIKEY.</p>",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "ABS, PP, PC "
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Nhiều màu sắc"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "1 kích cỡ, 275 x 95mm"
+      },
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "DORRIKEY"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Cừu trắng",
+        "variant_slug": "cuu-trang",
+        "variant_price": 294199,
+        "variant_img": "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-Cừu-trắng-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Jinniu nâu",
+        "variant_slug": "jinniu-nau",
+        "variant_price": 294599,
+        "variant_img": "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-Jinniu-nâu-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Tororo xám",
+        "variant_slug": "tororo-xam",
+        "variant_price": 293199,
+        "variant_img": "SEO_Images/Products/P028/Đồ-chơi-lật-đật-ăn-hạt-tự-động-cho-mèo-DORRIKEY-Tororo-xám-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 195000,
+    "product_sold_quantity": 951,
+    "product_rating": {
+      "rating_point": 4,
+      "rating_count": 821
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c4b4",
+    "product_name": "Bát đựng thức ăn cho mèo",
+    "product_slug": "bat-dung-thuc-an-cho-meo",
+    "category_id": "660c19756c72246fb20f3ea6",
+    "product_imgs": [
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-1",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-2",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-3",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-4",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-5",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-6",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-Hồng-1",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-Xám-1",
+      "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-Xanh-1"
+    ],
+    "product_short_description": "Bát đựng thức ăn và nước uống tự động cho mèo: Đảm bảo mèo cưng luôn có thức ăn tươi ngon mỗi khi cần.",
+    "product_description": "<h5>Đặc điểm sản phẩm:</h5>\n    <ul>\n        <li>Chất liệu nhựa PP cao cấp bền và mịn.</li>\n        <li>Nắp có thể tháo rời, thuận tiện để bổ sung thức ăn hoặc nước và làm sạch.</li>\n        <li>Đáy chống trượt giúp ổn định khi mèo ăn.</li>\n        <li>Áp dụng thiết kế trọng lực, tự động và không cần điện, rất an toàn.</li>\n        <li>Hộp đựng thức ăn và bình tưới nước kết hợp với nhau, Nước và thức ăn có thể được cho ăn theo cùng một cách, dễ dàng và thuận tiện.</li>\n    </ul>\n<h5>Thông số kỹ thuật:</h5>\n    <ul>\n        <li>Chất liệu: Nhựa PP</li>\n        <li>Màu sắc: Hồng/Xanh/Xám</li>\n        <li>Tính năng: Tự động</li>\n        <li>Kích thước: 30*26*11cm</li>\n    </ul>\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "OEM"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "Nhựa PP"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "hồng, xanh, xám"
+      },
+      "weight": {
+        "name": "Trọng lượng",
+        "value": "0.8kg"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "30 × 26 × 11cm"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Màu hồng",
+        "variant_slug": "mau-hong",
+        "variant_price": 240199,
+        "variant_img": "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-Hồng-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Màu xanh",
+        "variant_slug": "mau-xanh",
+        "variant_price": 241000,
+        "variant_img": "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-Xanh-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Màu xám",
+        "variant_slug": "mau-xam",
+        "variant_price": 241000,
+        "variant_img": "SEO_Images/Products/P031/Bát-đựng-thức-ăn-và-nước-uống-tự-động-Xám-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 160000,
+    "product_sold_quantity": 771,
+    "product_rating": {
+      "rating_point": 4.2,
+      "rating_count": 642
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c44c",
+    "product_name": "Dây dắt mèo yếm lưng body nhiều màu sắc FORCAT",
+    "product_slug": "day-dat-meo-yem-lung-body-nhieu-mau-sac-forcat",
+    "category_id": "660c19756c72246fb20f3ea3",
+    "product_imgs": [
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-1",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-2",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-3",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-4",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-5",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-6",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-Hồng-1",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-Xám-1",
+      "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-Kem-1"
+    ],
+    "product_short_description": "Dây dắt mèo yếm lưng body nhiều màu sắc là phụ kiện lý tưởng để đi dạo với thú cưng của bạn. Với chất liệu vải mềm mại và đai yếm điều chỉnh linh hoạt, sản phẩm giúp mèo của bạn thoải mái và an toàn khi đi chơi ngoài trời.",
+    "product_description": "<h5>Dây dắt mèo yếm lưng body nhiều màu sắc</h5>\n<h5>Đặc điểm:</h5>\n            <ul>\n                <li>Thiết kế nhỏ gọn, hợp thời trang.</li>\n                <li>Chất liệu an toàn, không gây kích ứng da.</li>\n                <li>Nhiều màu sắc và kích thước để lựa chọn.</li>\n            </ul>\n<h5>Kích thước:</h5>\n            <ul>\n                <li>S: Ngực 27-35cm, cổ 20-26cm, thích hợp cho 1,5-3kg.</li>\n                <li>M: Ngực 34-44cm, cổ 26-33cm, thích hợp cho 3-6kg.</li>\n                <li>L: ngực 44-55cm, cổ 33-45cm, thích hợp cho 6-9kg.</li>\n            </ul>\n<h5>Màu sắc:</h5>\n            <p>Hồng/Xanh lam/Xanh lá/Be/Xám</p>\n",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "Cotton polyester, ruy băng lanh"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Hồng, Be, Xám"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "S, M, L"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Hồng size M",
+        "variant_slug": "hong-size-m",
+        "variant_price": 76599,
+        "variant_img": "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-Hồng-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Xám size M",
+        "variant_slug": "xam-size-m",
+        "variant_price": 76999,
+        "variant_img": "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-Xám-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "Kem size M",
+        "variant_slug": "kem-size-m",
+        "variant_price": 76999,
+        "variant_img": "SEO_Images/Products/P022/Dây-dắt-mèo-yếm-lưng-body-nhiều-màu-sắc-Kem-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 50000,
+    "product_sold_quantity": 245,
+    "product_rating": {
+      "rating_point": 4.7,
+      "rating_count": 189
+    }
+  },
+  {
+    "_id": "660d58878be4c0f5e0b5c43f",
+    "product_name": "Vòng Cổ Mạ Vàng Cho Mèo - Sang Trọng, Đẳng Cấp FORCAT",
+    "product_slug": "vong-co-ma-vang-cho-meo-sang-trong-dang-cap-forcat",
+    "category_id": "660c19756c72246fb20f3ea3",
+    "product_imgs": [
+      "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-1",
+      "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-2",
+      "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-3",
+      "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-4",
+      "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-5",
+      "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-6"
+    ],
+    "product_short_description": "Vòng cổ mạ vàng cho mèo sang trọng, đẳng cấp. Kiểu dáng thời trang, nhiều màu sắc. Gía tốt! Đặt hàng tại FORCAT ngay!",
+    "product_description": "<p><strong>V&ograve;ng Cổ Mạ V&agrave;ng Cho M&egrave;o Sang Trọng - Biến h&oacute;a phong c&aacute;ch cho m&egrave;o cưng của bạn!</strong></p>\n    <ul>\n        <li><strong>Thiết kế tinh tế:</strong> V&ograve;ng cổ được chế t&aacute;c từ kim loại cao cấp mạ v&agrave;ng, mang vẻ đẹp sang trọng v&agrave; tinh tế.</li>\n        <li><strong>Bền bỉ, an to&agrave;n:&nbsp;</strong>Chất liệu cao cấp, chống gỉ s&eacute;t, an to&agrave;n cho da m&egrave;o.</li>\n        <li><strong>K&iacute;ch thước đa dạng:</strong> C&oacute; nhiều k&iacute;ch cỡ ph&ugrave; hợp với mọi giống m&egrave;o.</li>\n        <li><strong>Dễ d&agrave;ng điều chỉnh:&nbsp;</strong>D&acirc;y đeo c&oacute; thể điều chỉnh độ d&agrave;i ph&ugrave; hợp với cổ m&egrave;o.</li>\n        <li><strong>M&oacute;c kh&oacute;a chắc chắn:</strong> M&oacute;c kh&oacute;a an to&agrave;n, gi&uacute;p giữ m&egrave;o cưng an to&agrave;n.</li>\n        <li><strong>Kiểu d&aacute;ng thời trang:</strong> Nhiều kiểu d&aacute;ng thời trang, ph&ugrave; hợp với mọi phong c&aacute;ch.</li>\n    </ul>\n    <h5><strong>V&ograve;ng Cổ Mạ V&agrave;ng Sang Trọng, Đẳng Cấp:</strong></h5>\n    <ul>\n        <li>Tạo điểm nhấn cho m&egrave;o cưng của bạn.</li>\n        <li>Thể hiện c&aacute; t&iacute;nh v&agrave; phong c&aacute;ch của bạn.</li>\n        <li>L&agrave; m&oacute;n qu&agrave; tuyệt vời cho m&egrave;o cưng.</li>\n    </ul>\n    <p>Biến h&oacute;a phong c&aacute;ch cho m&egrave;o cưng của bạn với V&ograve;ng Cổ Mạ V&agrave;ng Cho M&egrave;o Sang Trọng ngay h&ocirc;m nay!</p>",
+    "product_specifications": {
+      "length": {
+        "name": "Chiều dài",
+        "value": "16-32cm"
+      },
+      "width": {
+        "name": "Chiều rộng",
+        "value": "2 cm"
+      },
+      "weight": {
+        "name": "0,1 kg",
+        "value": "Một cỡ (vừa với hầu hết các giống mèo)"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "kim loại không gỉ"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Mạ vàng bóng"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "size S",
+        "variant_slug": "size-s",
+        "variant_price": 106199,
+        "variant_img": "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-6",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "size M",
+        "variant_slug": "size-m",
+        "variant_price": 105199,
+        "variant_img": "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-6",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      },
+      {
+        "variant_name": "size L",
+        "variant_slug": "size-l",
+        "variant_price": 105199,
+        "variant_img": "SEO_Images/Products/P021/Vòng-Cổ-Mạ-Vàng-Cho-Mèo-6",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 70000,
+    "product_sold_quantity": 704,
+    "product_rating": {
+      "rating_point": 4.6,
+      "rating_count": 536
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec1a",
+    "product_name": "Thức ăn cho mèo Nutrience Original",
+    "product_slug": "thuc-an-cho-meo-nutrience-original",
+    "category_id": "660c19756c72246fb20f3e9a",
+    "product_imgs": [
+      "SEO_Images/Products/P001/Thức-ăn-hạt-cho-mèo-Nutrience-1",
+      "SEO_Images/Products/P001/Thức-ăn-hạt-cho-mèo-Nutrience-2",
+      "SEO_Images/Products/P001/Thức-ăn-hạt-cho-mèo-Nutrience-3",
+      "SEO_Images/Products/P001/Thức-ăn-hạt-cho-mèo-Nutrience-4",
+      "SEO_Images/Products/P001/Thức-ăn-hạt-cho-mèo-Nutrience-5",
+      "SEO_Images/Products/P001/Thức-ăn-hạt-cho-mèo-Nutrience-6"
+    ],
+    "product_short_description": "Thức ăn hạt Nutrience dành cho mèo trưởng thành với thành phần chính từ thịt gà, rau củ và trái cây, cung cấp một chế độ dinh dưỡng cân đối cho mèo yêu. Hỗn hợp này không chỉ giàu protein từ thịt gà mà còn bổ sung chất xơ từ rau củ và dồi dào vitamin từ trái cây. Hãy cho thú cưng của bạn thưởng thức một bữa ăn hạt thú vị và bổ dưỡng từ Nutrience!",
+    "product_description": "\n    <h5>Thức ăn hạt cho mèo Nutrience</h5>\n<p>Mèo nuôi trong nhà phải đối mặt với nhiều vấn đề về cân nặng và chứng nghẹn lông. Chế độ ăn của sản phẩm Nutrience Original cho mèo trưởng thành sẽ giúp tối ưu hóa sức khỏe của mèo yêu nhà bạn.</p>\n<h5>Thành phần:</h5>\n            <ul>\n                <li>Bột thịt gà Canada, gạo lứt, bột yến mạch, đậu hà lan, mỡ gà (được bảo quản với tocopherols hỗn hợp), bột củ cải khô, hương vị gà tự nhiên, sản phẩm trứng, hạt lanh, canxi cacbonat, men bia, dầu cá hồi (nguồn DHA), quả việt quất, quả nam việt quất , cà rốt.</li>\n                <li> Vitamin [bổ sung vitamin E, axit ascorbic (vitamin C), bổ sung vitamin A, niacin, canxi pantothenate, inositol, riboflavin, pyridoxin hydrochloride, thiamine mononitrate, biotin, bổ sung vitamin B12, vitamin D3, bổ sung, axit folic], khoáng chất [kẽm oxit, kẽm proteinate, sắt proteinate, sắt sulfat, đồng proteinate, đồng sulfate, mangan proteinate, mangan oxit, canxi iodate, sodium selenite], kali clorua, DL-methionine, lecithin, muối, taurine, chiết xuất từ rau diếp xoăn, choline clorua, chiết xuất men, L-lysine, chiết xuất yucca schidigera, chiết xuất dứa, glucosamine hydrochloride, chondroitin sulfat.</li>\n            </ul>\n\n<h5>Lợi ích:</h5>\n            <ul>\n                <li>Cơ bắp săn chắc, cân nặng khỏe mạnh: Mèo trong nhà thích nằm một chỗ và ít năng động hơn so với mèo sống bên ngoài. Cung cấp cho chúng chế độ ăn giàu protein thịt chất lượng và mức chất béo vừa phải thông qua hạt cho mèo sẽ giúp chúng duy trì cân nặng khỏe mạnh và khối lượng cơ bắp.</li>\n                <li>Giải quyết chứng nghẹn lông: Các loại axit béo omega-3 và omega-6 của chúng tôi sẽ giúp mèo duy trì da khỏe mạnh và làm giảm sự rụng thừa.</li>\n                <li>Hệ miễn dịch khỏe mạnh: Sử dụng nhiều nguồn nguyên liệu tự nhiên có chứa chất chống oxy hóa cho các công thức dinh dưỡng Nutrience (quả việt quất, nam việt quất và cà rốt cùng với vitamin C và vitamin E) để chúng hoạt động cùng nhau hỗ trợ hệ miễn dịch của mèo và duy trì một trái tim khỏe mạnh.</li>\n                <li>Hỗ trợ xương và khớp: Mèo ít hoạt động có thể được bảo vệ khớp và chuyển động. Hạt Nutrience đảm bảo số lượng glucosamine và chondroitin nhất định trong công thức này để giúp hỗ trợ khớp và duy trì chuyển động linh hoạt của mèo.</li>\n                <li>Kiểm soát mùi:Công thức hạt Nutrience bao gồm sự kết hợp của ngũ cốc nguyên hạt, chất xơ tự nhiên và chất xơ hòa tan (prebiotic) giúp mèo duy trì đường ruột khỏe mạnh, cũng như chiết xuất cây yucca schidigera để giảm thiểu mùi hôi của phân mèo. </li>\n            </ul>\n\n<h5>Thương hiệu:</h5>\n            <p>Nutrience.</p>\n\n <h5>Trọng lượng:</h5>\n            <p>500 gram.</p>\n    ",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Nutrience"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Canada"
+      },
+      "preservation": {
+        "name": "Hướng dẫn bảo quản",
+        "value": "- Bảo quản nơi khô ráo, thoáng mát, tránh ẩm ướt. - Kẹp, đóng chặt miệng túi khi không sử dụng."
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "500 gram"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Nutrience Original",
+        "variant_slug": "nutrience-original",
+        "variant_price": 189999,
+        "variant_img": "SEO_Images/Products/P001/Thức-ăn-hạt-cho-mèo-Nutrience-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 125000,
+    "product_sold_quantity": 595,
+    "product_rating": {
+      "rating_point": 4.7,
+      "rating_count": 392
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec35",
+    "product_name": "Cát vệ sinh hương cà phê khử mùi Kun Miu",
+    "product_slug": "cat-ve-sinh-huong-ca-phe-khu-mui-kun-miu",
+    "category_id": "660c19756c72246fb20f3e9d",
+    "product_imgs": [
+      "SEO_Images/Products/P009/Cát-vệ-sinh-hương-cà-phê-khử-mùi-Kun-Miu-1",
+      "SEO_Images/Products/P009/Cát-vệ-sinh-hương-cà-phê-khử-mùi-Kun-Miu-2",
+      "SEO_Images/Products/P009/Cát-vệ-sinh-hương-cà-phê-khử-mùi-Kun-Miu-3",
+      "SEO_Images/Products/P009/Cát-vệ-sinh-hương-cà-phê-khử-mùi-Kun-Miu-4",
+      "SEO_Images/Products/P009/Cát-vệ-sinh-hương-cà-phê-khử-mùi-Kun-Miu-5",
+      "SEO_Images/Products/P009/Cát-vệ-sinh-hương-cà-phê-khử-mùi-Kun-Miu-6"
+    ],
+    "product_short_description": "Cát vệ sinh Kún Miu hương cà phê - Lựa chọn hoàn hảo cho bạn và mèo yêu - Khử mùi hôi hiệu quả, giữ cho nhà cửa luôn sạch sẽ. An toàn cho sức khỏe của mèo, không gây kích ứng da hay hệ hô hấp.",
+    "product_description": "<h5>Thông tin sản phẩm</h5>\n    <ul>\n      <li>Thành phần: 100% đất sét Bentonite</li>\n      <li>Đặc điểm:</li>\n        <ul>\n          <li>Khử mùi hiệu quả với hương cà phê thơm dịu</li>\n          <li>Vón cục tốt, dễ dàng dọn dẹp</li>\n          <li>Ít bụi, an toàn cho mèo và người sử dụng</li>\n          <li>Tiết kiệm, sử dụng lâu dài</li>\n        </ul>\n      <li>Hướng dẫn sử dụng:</li>\n        <ol>\n          <li>Đổ cát vào khay vệ sinh với độ dày khoảng 5cm</li>\n          <li>Loại bỏ chất thải rắn và vón cục mỗi ngày</li>\n          <li>Thay cát mới hoàn toàn sau 7-10 ngày</li>\n        </ol>\n      <li>Lưu ý:</li>\n        <ul>\n          <li>Bảo quản nơi khô ráo, thoáng mát</li>\n          <li>Tránh xa tầm tay trẻ em</li>\n        </ul>\n      <li>Quy cách: Túi 8L</li>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Kún Miu"
+      },
+      "country": {
+        "name": "Xuất xứ thương hiệu",
+        "value": "Việt Nam"
+      },
+      "expiration_date": {
+        "name": "Hạn sử dụng",
+        "value": "1 năm"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "8Kg"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 61199,
+        "variant_img": "SEO_Images/Products/P009/Cát-vệ-sinh-hương-cà-phê-khử-mùi-Kun-Miu-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 40000,
+    "product_sold_quantity": 546,
+    "product_rating": {
+      "rating_point": 4.2,
+      "rating_count": 318
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec3e",
+    "product_name": "Cát gỗ cho mèo Cat's Best",
+    "product_slug": "cat-go-cho-meo-cats-best",
+    "category_id": "660c19756c72246fb20f3e9d",
+    "product_imgs": [
+      "SEO_Images/Products/P010/Cát-gỗ-cho-mèo-Cat's-Best-1",
+      "SEO_Images/Products/P010/Cát-gỗ-cho-mèo-Cat's-Best-2",
+      "SEO_Images/Products/P010/Cát-gỗ-cho-mèo-Cat's-Best-3",
+      "SEO_Images/Products/P010/Cát-gỗ-cho-mèo-Cat's-Best-4",
+      "SEO_Images/Products/P010/Cát-gỗ-cho-mèo-Cat's-Best-5",
+      "SEO_Images/Products/P010/Cát-gỗ-cho-mèo-Cat's-Best-6"
+    ],
+    "product_short_description": "Cát gỗ cho mèo Cat's Best - 100% nguyên liệu tự nhiên - Khử mùi hôi hiệu quả, giữ cho nhà cửa luôn sạch sẽ. An toàn cho sức khỏe của mèo, không gây kích ứng da hay hệ hô hấp.",
+    "product_description": "<h5>Ưu điểm</h5>\n            <ul>\n                <li>An toàn: Được làm từ 100% nguyên liệu tự nhiên, không chứa hóa chất độc hại.</li>\n                <li>Vệ sinh: Vón cục tốt, dễ dàng dọn dẹp, giúp khay vệ sinh luôn sạch sẽ.</li>\n                <li>Khử mùi hôi: Thấm hút mạnh mẽ, khử mùi hôi hiệu quả.</li>\n                <li>Tiết kiệm: Nhẹ và ít bụi, giúp tiết kiệm cát.</li>\n                <li>Thân thiện với môi trường: Phân hủy sinh học, có thể tiêu hủy trong toilet.</li>\n            </ul>\n<h5>Hướng dẫn sử dụng</h5>\n            <ol>\n                <li>Đổ cát vào khay vệ sinh với độ dày khoảng 5cm.</li>\n                <li>Mèo đi vệ sinh, chất thải sẽ vón cục.</li>\n                <li>Dùng xẻng hót bỏ phần cát vón cục.</li>\n                <li>Bổ sung thêm cát mới để duy trì độ dày 5cm.</li>\n            </ol>\n<h5>Lưu ý</h5>\n            <ul>\n                <li>Nên thay cát mới hoàn toàn sau mỗi 7-10 ngày.</li>\n                <li>Bảo quản cát nơi khô ráo, thoáng mát.</li>\n                <li>Tránh xa tầm tay trẻ em.</li>\n            </ul>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Cat's Best"
+      },
+      "country": {
+        "name": "Xuất xứ thương hiệu",
+        "value": "Việt Nam"
+      },
+      "type": {
+        "name": "Loại",
+        "value": "Vón cục"
+      },
+      "expiration_date": {
+        "name": "Hạn sử dụng",
+        "value": "1 năm"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "5Kg"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 211999,
+        "variant_img": "SEO_Images/Products/P010/Cát-gỗ-cho-mèo-Cat's-Best-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 140000,
+    "product_sold_quantity": 204,
+    "product_rating": {
+      "rating_point": 4.3,
+      "rating_count": 173
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec47",
+    "product_name": "Nhà vệ sinh cho mèo PAW Fat Meow Cat Litter Boxes",
+    "product_slug": "nha-ve-sinh-cho-meo-paw-fat-meow-cat-litter-boxes",
+    "category_id": "660c19756c72246fb20f3e9e",
+    "product_imgs": [
+      "SEO_Images/Products/P012/Nhà-vệ-sinh-cho-mèo-PAW-Fat-Meow-1",
+      "SEO_Images/Products/P012/Nhà-vệ-sinh-cho-mèo-PAW-Fat-Meow-2",
+      "SEO_Images/Products/P012/Nhà-vệ-sinh-cho-mèo-PAW-Fat-Meow-3",
+      "SEO_Images/Products/P012/Nhà-vệ-sinh-cho-mèo-PAW-Fat-Meow-4",
+      "SEO_Images/Products/P012/Nhà-vệ-sinh-cho-mèo-PAW-Fat-Meow-5",
+      "SEO_Images/Products/P012/Nhà-vệ-sinh-cho-mèo-PAW-Fat-Meow-6"
+    ],
+    "product_short_description": "Nhà vệ sinh cho mèo size lớn PAW Fat Meow thiết kế dành cho mèo béo, mèo trưởng trưởng thành. Không gian nhà vệ sinh mèo rộng rãi cung cấp không gian đủ cho mèo trưởng thành, mèo lớn di chuyển một cách thoải mái.",
+    "product_description": "<h5>Sản phẩm Nhà vệ sinh cho mèo PAW Fat Meow được thiết kế thông minh để đáp ứng mọi nhu cầu của mèo cưng.</h5>\n<ul>\n<li>Với kích thước rộng rãi (34 × 48.5 × 34 cm), phù hợp với mọi kích cỡ mèo, đặc biệt là mèo béo.</li>\n<li>Bể cao giúp giữ cát bên trong, ngăn chặn việc vung vãi ra ngoài.</li>\n<li>Nắp đậy kín giúp khử mùi hiệu quả và giữ không gian nhà bạn luôn sạch sẽ.</li>\n<li>Cửa ra vào thấp giúp mèo dễ dàng ra vào, đặc biệt phù hợp với mèo con và mèo già.</li>\n<li>Tay cầm tiện lợi giúp bạn di chuyển nhà vệ sinh dễ dàng.</li>\n<li>Chất liệu cao cấp được làm từ nhựa PP an toàn cho sức khỏe của mèo cưng.</li>\n<li>Bề mặt nhẵn mịn của sản phẩm dễ dàng vệ sinh, giúp bạn duy trì môi trường sạch sẽ cho thú cưng một cách dễ dàng.</li>\n<li>Sản phẩm được lắp ráp đơn giản mà không cần dụng cụ, và có thể sử dụng với nhiều loại cát vệ sinh khác nhau, mang lại sự thuận tiện và linh hoạt cho người sử dụng.</li>\n</ul>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "PAW"
+      },
+      "country": {
+        "name": "Xuất xứ",
+        "value": "Đài Loan"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "34 × 48.5 × 34 cm"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Hồng, Xanh cổ vịt"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 474199,
+        "variant_img": "SEO_Images/Products/P012/Nhà-vệ-sinh-cho-mèo-PAW-Fat-Meow-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 315000,
+    "product_sold_quantity": 663,
+    "product_rating": {
+      "rating_point": 4.2,
+      "rating_count": 498
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec23",
+    "product_name": "Cỏ bạc hà cho mèo Catnip",
+    "product_slug": "co-bac-ha-cho-meo-catnip",
+    "category_id": "660c19756c72246fb20f3e9c",
+    "product_imgs": [
+      "SEO_Images/Products/P006/Cỏ-mèo-dạng-ống-1",
+      "SEO_Images/Products/P006/Cỏ-mèo-dạng-ống-2",
+      "SEO_Images/Products/P006/Cỏ-mèo-dạng-ống-3",
+      "SEO_Images/Products/P006/Cỏ-mèo-dạng-ống-4",
+      "SEO_Images/Products/P006/Cỏ-mèo-dạng-ống-5",
+      "SEO_Images/Products/P006/Cỏ-mèo-dạng-ống-6"
+    ],
+    "product_short_description": "Catnip ống cho mèo với thành phần cỏ bạc hà giúp kích thích và tạo hưng phấn cho mèo của bạn.",
+    "product_description": "<h5>Sản phẩm Catnip dạng ống</h5>\n<p>Được làm từ cỏ mèo chứa nhiều chất xơ, ngoài ra còn chứa rất nhiều vitamin và khoáng chất giúp tiêu hóa dễ dàng cũng như cân bằng dinh dưỡng cho mèo của bạn.</p>\n<p>Công dụng:</p>\n<ul>\n  <li>\n    Kích thích mèo khạc lông ra ngoài, làm hạn chế các bệnh về đường tiêu hóa.\n  </li>\n  <li>\n    Cải thiện tâm trạng mèo, giảm căng thẳng.\n  </li>\n</ul>\n<p>Hướng dẫn sử dụng:</p>\n     <ul>\n  <li>\n    Cho mèo ngửi, ăn trực tiếp hoặc trộn chung với thức ăn.\n  </li>\n  <li>\n    Sau khi dùng xong đóng nắp lại để bảo quản.\n  </li>\n</ul>\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "OEM"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "40g"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 46199,
+        "variant_img": "SEO_Images/Products/P006/Cỏ-mèo-dạng-ống-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 30000,
+    "product_sold_quantity": 741,
+    "product_rating": {
+      "rating_point": 4.9,
+      "rating_count": 632
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec2c",
+    "product_name": "Combo hạt giống cỏ mèo + đất + chậu trồng cỏ",
+    "product_slug": "combo-hat-giong-co-meo-dat-chau-trong-co",
+    "category_id": "660c19756c72246fb20f3e9c",
+    "product_imgs": [
+      "SEO_Images/Products/P007/Hạt-giống-cỏ-mèo-1",
+      "SEO_Images/Products/P007/Hạt-giống-cỏ-mèo-2",
+      "SEO_Images/Products/P007/Hạt-giống-cỏ-mèo-3",
+      "SEO_Images/Products/P007/Hạt-giống-cỏ-mèo-4",
+      "SEO_Images/Products/P007/Hạt-giống-cỏ-mèo-5",
+      "SEO_Images/Products/P007/Hạt-giống-cỏ-mèo-6"
+    ],
+    "product_short_description": "Hạt giống cỏ mèo dễ trồng, dễ chăm sóc. Giúp bổ sung chất xơ và nhiều dưỡng chất cho bé mèo của bạn.",
+    "product_description": "<h5>Sản phẩm Hạt giống cỏ mèo</h5>\n<p>Chất dinh dưỡng trong cỏ mèo:</p>\n<ul>\n  <li>\n    Vitamin K,E,C,B - chống oxy hóa mạnh, đào thải chất độc.\n  </li>\n  <li>\n    Chất diệp lục - bổ sung hồng cầu, hỗ trợ hệ thống tuần hoàn.\n  </li>\n<li>\n    Beta-carotene đóng vai trò duy trì mắt và não bộ, là sử bổ sung quan trọng đối với mèo đang có thai.\n  </li>\n<li>\n    Các khoáng chất: Magie, sắt, kẽm, phốt pho, canxi...\n  </li>\n<li>\n    Các Enzyme và xơ thực vật\n  </li>\n</ul>\n<h5>Hướng dẫn sử dụng</h5>\n<p>Chuẩn bị nguyên vật liệu:</p>\n<ul>\n  <li>Hạt giống cỏ mèo: Với gói hạt cỏ mèo của ForCat Shop, bạn có thể yên tâm với tỷ lệ nảy mầm đạt hơn 90%.</li>\n  <li>Khay nhỏ: Không chọn khay quá to để hạn chế việc mèo bới đất trồng ra xung quanh.</li>\n  <li>Đất: Chọn loại đất hữu cơ màu mỡ.</li>\n  <li>Nước sạch.</li>\n</ul>\n\n<p>Bước 1: Ngâm hạt giống</p>\n<ul>\n  <li>Ngâm hạt giống vào nước, sau 3 tiếng vớt bỏ những hạt giống hỏng nổi lên trên mặt nước.</li>\n  <li>Những hạt giống tốt sẽ chìm xuống đáy, ngâm tiếp từ 3-6h tùy vào khí hậu từng mùa. Hạt giống ngậm đủ nước sẽ nở căng, khi nhú mầm thì bạn vớt ra để gieo trồng.</li>\n</ul>\n<p>Bước 2: Gieo trồng</p>\n<ul>\n  <li>Gieo hạt đã nảy mầm vào khay đất cách mặt đất 1cm để khi cỏ phát triển không bị gãy đổ.</li>\n</ul>\n<p>Bước 3: Chăm sóc</p>\n<ul>\n  <li>Tưới nước sạch ngày 2 lần sáng tối.</li>\n  <li>Để khay cỏ ở nơi thoáng mát và có ánh sáng mặt trời.</li>\n</ul>\n<p>Bước 4: Thu hoạch</p>\n<ul>\n  <li>Cần 4-5 ngày để cỏ phát triển lên đến độ cao có thể thu hoạch được.</li>\n  <li>Bạn có thể để mèo gặm cỏ trực tiếp ở khay hoặc có thể cắt ra cho mèo dùng.</li>\n</ul>\n\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "OEM"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Việt Nam"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "100g"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 46999,
+        "variant_img": "SEO_Images/Products/P007/Hạt-giống-cỏ-mèo-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 30000,
+    "product_sold_quantity": 566,
+    "product_rating": {
+      "rating_point": 4,
+      "rating_count": 354
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec5f",
+    "product_name": "Đồ chơi cần câu mèo bằng dây thép gắn lông",
+    "product_slug": "do-choi-can-cau-meo-bang-day-thep-gan-long",
+    "category_id": "660c19756c72246fb20f3ea5",
+    "product_imgs": [
+      "SEO_Images/Products/P025/Đồ-chơi-cần-câu-mèo-bằng-dây-thép-gắn-lông-1",
+      "SEO_Images/Products/P025/Đồ-chơi-cần-câu-mèo-bằng-dây-thép-gắn-lông-2",
+      "SEO_Images/Products/P025/Đồ-chơi-cần-câu-mèo-bằng-dây-thép-gắn-lông-3",
+      "SEO_Images/Products/P025/Đồ-chơi-cần-câu-mèo-bằng-dây-thép-gắn-lông-4",
+      "SEO_Images/Products/P025/Đồ-chơi-cần-câu-mèo-bằng-dây-thép-gắn-lông-5",
+      "SEO_Images/Products/P025/Đồ-chơi-cần-câu-mèo-bằng-dây-thép-gắn-lông-6"
+    ],
+    "product_short_description": "Đồ chơi cần câu mèo bằng dây thép gắn lông là lựa chọn hoàn hảo để kích thích hoạt động và sự tò mò cho mèo yêu. Với thiết kế cần câu chân thực và dây thép bền bỉ, sản phẩm này sẽ giúp tăng cường cơ bắp và kỹ năng săn mồi tự nhiên cho bé mèo của bạn.",
+    "product_description": "<h5>Đồ chơi cần câu mèo bằng dây thép gắn lông</h5>\n<h5>Tác dụng:</h5>\n            <ul>\n                <li>Dùng để chơi với các em thú cưng xinh yêu của bạn.</li>\n                <li>Màu sắc ngộ nghĩnh, đáng yêu, cần câu mèo tạo sự thu hút cho thú cưng bạn.</li>\n                <li>Mèo chơi đùa cùng cần câu giúp tăng cường khả năng vận động hoạt bát của mèo, kích thích vờn bắt theo tập tính.</li>\n            </ul>\n<h5>Kích thước:</h5>\n            <p>1 cỡ.</p>\n",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "Thép không gỉ, lông vũ"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Nhiều màu sắc"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "1 kích cỡ"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Việt Nam"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 30599,
+        "variant_img": "SEO_Images/Products/P025/Đồ-chơi-cần-câu-mèo-bằng-dây-thép-gắn-lông-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 20000,
+    "product_sold_quantity": 260,
+    "product_rating": {
+      "rating_point": 4,
+      "rating_count": 197
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec68",
+    "product_name": "Chuột đồ chơi dễ thương cho mèo yêu",
+    "product_slug": "chuot-do-choi-de-thuong-cho-meo-yeu",
+    "category_id": "660c19756c72246fb20f3ea5",
+    "product_imgs": [
+      "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-1",
+      "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-2",
+      "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-3",
+      "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-4",
+      "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-5",
+      "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-6",
+      "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-7"
+    ],
+    "product_short_description": "Mang lại niềm vui và kích thích cho mèo yêu của bạn với chuột đồ chơi dễ thương. Thiết kế độc đáo và chất liệu an toàn giúp kích thích bản năng săn mồi tự nhiên của mèo. Với hình dáng đáng yêu và màu sắc bắt mắt, đồ chơi này sẽ làm cho mèo của bạn vui vẻ hơn bao giờ hết.",
+    "product_description": "<h5>Chuột đồ chơi dễ thương cho mèo yêu</h5>\n<h5>Tác dụng:</h5>\n            <ul>\n                <li>Chuột đồ chơi làm cho mèo hoạt động nhiều hơn, giúp chúng duy trì sức khỏe vận động và tránh tình trạng tăng cân.</li>\n                <li>Thiết kế chuột đồ chơi giúp kích thích bản năng săn mồi tự nhiên của mèo, giúp chúng tập trung và giảm căng thẳng.</li>\n                <li>Chơi với chuột đồ chơi dễ thương có thể giúp giảm stress và lo lắng cho mèo yêu của bạn, giúp cải thiện tâm trạng và tăng cường sự thoải mái.</li>\n                <li>Chơi cùng với chuột đồ chơi có thể tạo ra mối liên kết giữa chủ nhân và mèo, tăng cường tình cảm và sự gần gũi.</li>\n            </ul>\n<h5>Màu sắc:</h5>\n            <p>Ngẫu nhiên.</p>",
+    "product_specifications": {
+      "material": {
+        "name": "Chất liệu",
+        "value": "Nhựa, vải lông"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Nhiều màu sắc"
+      },
+      "size": {
+        "name": "Kích cỡ",
+        "value": "1 kích cỡ"
+      },
+      "made_in": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 48000,
+        "variant_img": "SEO_Images/Products/P026/Chuột-đồ-chơi-dễ-thương-cho-mèo-yêu-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 32000,
+    "product_sold_quantity": 830,
+    "product_rating": {
+      "rating_point": 4.6,
+      "rating_count": 590
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec72",
+    "product_name": "Xẻng Xúc Cát Cho Mèo Bằng Kim Loại Mạ Vàng Sang Trọng FORCAT - Bền Bỉ, Dễ Dàng Vệ Sinh",
+    "product_slug": "xeng-xuc-cat-cho-meo-bang-kim-loai-ma-vang-sang-trong-forcat-ben-bi-de-dang-ve-sinh",
+    "category_id": "660c19756c72246fb20f3ea6",
+    "product_imgs": [
+      "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-1",
+      "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-2",
+      "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-3",
+      "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-4",
+      "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-5",
+      "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-6",
+      "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-7"
+    ],
+    "product_short_description": "Xẻng Xúc Cát Cho Mèo Bằng Kim Loại Mạ Vàng - công cụ vệ sinh không thể thiếu cho hộp cát của mèo nhà bạn. Thiết kế chắc chắn, khả năng loại bỏ chất thải hiệu quả, và dễ dàng vệ sinh. Chất liệu không gỉ, mạ vàng sang trọng. Đặt mua tại FORCAT ngay!",
+    "product_description": "<p>N&acirc;ng tầm trải nghiệm dọn dẹp khay vệ sinh cho m&egrave;o cưng của bạn với <strong>Xẻng X&uacute;c C&aacute;t Cho M&egrave;o Bằng Kim Loại Mạ V&agrave;ng Sang Trọng</strong>. Được chế t&aacute;c từ kim loại cao cấp mạ v&agrave;ng, sản phẩm kh&ocirc;ng chỉ mang vẻ ngo&agrave;i <strong>đẳng cấp, sang trọng</strong> m&agrave; c&ograve;n đảm bảo <strong>bền bỉ, chịu lực</strong> tốt cho thời gian sử dụng l&acirc;u d&agrave;i.</p>\n<h5><strong>Thiết kế tinh tế:</strong></h5>\n<ul style=\"list-style-type: disc;\">\n    <li>Tay cầm <strong>chống trơn trượt</strong> gi&uacute;p thao t&aacute;c thoải m&aacute;i, an to&agrave;n.</li>\n    <li>Lưỡi xẻng<strong>&nbsp;mỏng nhẹ</strong> với <strong>khe hở th&ocirc;ng minh</strong>, dễ d&agrave;ng s&agrave;ng lọc c&aacute;t sạch v&agrave; loại bỏ chất thải hiệu quả.</li>\n    <li><strong>Bề mặt mạ v&agrave;ng</strong> s&aacute;ng b&oacute;ng, <strong>sang trọng</strong> t&ocirc; điểm cho kh&ocirc;ng gian nh&agrave; bạn.</li>\n</ul>\n<h5><strong>Chất liệu cao cấp:</strong></h5>\n<ul style=\"list-style-type: disc;\">\n    <li>Kim loại chống gỉ s&eacute;t, bền bỉ cho thời gian sử dụng l&acirc;u d&agrave;i.</li>\n    <li>Dễ d&agrave;ng vệ sinh chỉ với nước v&agrave; x&agrave; ph&ograve;ng.</li>\n</ul>\n<h5><strong>K&iacute;ch thước tiện lợi:</strong></h5>\n<ul>\n    <li>Chiều d&agrave;i: 30cm</li>\n    <li>Chiều rộng: 10cm</li>\n    <li>Chiều cao: 5cm</li>\n</ul>\n<h5><strong>M&agrave;u sắc:</strong></h5>\n<ul>\n    <li>Kim loại m&agrave;u v&agrave;ng (sang trọng, nổi bật)</li>\n</ul>\n<h5><strong>Lợi &iacute;ch:</strong></h5>\n<ul>\n    <li>N&acirc;ng tầm trải nghiệm dọn dẹp khay vệ sinh cho m&egrave;o.</li>\n    <li>Đảm bảo vệ sinh, ngăn ngừa vi khuẩn.</li>\n    <li>Tiết kiệm thời gian v&agrave; c&ocirc;ng sức.</li>\n    <li>Tăng t&iacute;nh thẩm mỹ cho kh&ocirc;ng gian nh&agrave; bạn.</li>\n</ul>",
+    "product_specifications": {
+      "length": {
+        "name": "Chiều dài",
+        "value": "30 cm"
+      },
+      "width": {
+        "name": "Chiều rộng",
+        "value": "10 cm"
+      },
+      "height": {
+        "name": "Chiều cao",
+        "value": "5 cm"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "0,3 kg"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "inox không gỉ"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "Mạ vàng"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 105000,
+        "variant_img": "SEO_Images/Products/P029/Xẻng-xúc-cát-cho-mèo-bằng-kim-loại-mạ-vàng-1",
+        "variant_discount_percent": 0,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 70000,
+    "product_sold_quantity": 846,
+    "product_rating": {
+      "rating_point": 4.5,
+      "rating_count": 684
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec7c",
+    "product_name": "Lược chải lông mèo Pawbby",
+    "product_slug": "luoc-chai-long-meo-pawbby",
+    "category_id": "660c19756c72246fb20f3ea6",
+    "product_imgs": [
+      "SEO_Images/Products/P032/Lược-chải-lông-thú-cưng-Pawbby-1",
+      "SEO_Images/Products/P032/Lược-chải-lông-thú-cưng-Pawbby-2",
+      "SEO_Images/Products/P032/Lược-chải-lông-thú-cưng-Pawbby-3",
+      "SEO_Images/Products/P032/Lược-chải-lông-thú-cưng-Pawbby-4",
+      "SEO_Images/Products/P032/Lược-chải-lông-thú-cưng-Pawbby-5",
+      "SEO_Images/Products/P032/Lược-chải-lông-thú-cưng-Pawbby-6"
+    ],
+    "product_short_description": "Lược chải lông mèo Pawbby được thiết kế để loại bỏ hiệu quả lông rụng và lớp lông tơ khỏi mèo của bạn",
+    "product_description": "<h5>Tính năng sản phẩm:</h5>\n    <ul>\n        <li>Thiết kế lưỡi giúp chải sâu vào lớp lông</li>\n        <li>Phù hợp với nhiều giống vật nuôi và kích cỡ khác nhau</li>\n        <li>Các cạnh được bo tròn an toàn</li>\n        <li>Bàn chải giúp giảm rụng lông</li>\n        <li>Cơ chế nhả lông bằng một nút bấm, thích hợp cho mọi loại lông</li>\n    </ul>\n\n<h5>Thông số kỹ thuật:</h5>\n    <ul>\n        <li>Chất liệu: Nhựa, thép không gỉ</li>\n        <li>Màu sắc: Trắng</li>\n        <li>Kích thước: 149*70*49mm</li>\n    </ul>\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Pawbby"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "Nhựa, thép không gỉ"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "trắng"
+      },
+      "weight": {
+        "name": "Trọng lượng",
+        "value": "300g"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "149 × 70 × 47mm"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 451999,
+        "variant_img": "SEO_Images/Products/P032/Lược-chải-lông-thú-cưng-Pawbby-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 300000,
+    "product_sold_quantity": 492,
+    "product_rating": {
+      "rating_point": 4.8,
+      "rating_count": 262
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec85",
+    "product_name": "Máy sấy lông mèo Kuubia đa năng 2 trong 1",
+    "product_slug": "may-say-long-meo-kuubia-da-nang-2-trong-1",
+    "category_id": "660c19756c72246fb20f3ea6",
+    "product_imgs": [
+      "SEO_Images/Products/P033/Máy-sấy-lông-thú-cưng-Kuubia-đa-năng-1",
+      "SEO_Images/Products/P033/Máy-sấy-lông-thú-cưng-Kuubia-đa-năng-2",
+      "SEO_Images/Products/P033/Máy-sấy-lông-thú-cưng-Kuubia-đa-năng-3",
+      "SEO_Images/Products/P033/Máy-sấy-lông-thú-cưng-Kuubia-đa-năng-4",
+      "SEO_Images/Products/P033/Máy-sấy-lông-thú-cưng-Kuubia-đa-năng-5",
+      "SEO_Images/Products/P033/Máy-sấy-lông-thú-cưng-Kuubia-đa-năng-6"
+    ],
+    "product_short_description": "Máy sấy lông mèo Kuubia đa năng 2 trong 1 sấy lông kiêm lược chải lông/ mát xa cho mèo cưng.",
+    "product_description": "<h5>Tính năng sản phẩm:</h5>\n    <ul>\n        <li>Máy sấy và lược chải lông cho spa grooming chuyên dụng</li>\n        <li>Có khả năng làm lông của vật nuôi tơi bồng bềnh và đẹp hơn</li>\n        <li>Sản phẩm có chức năng kiểm soát độ mạnh của thổi gió và nhiệt độ</li>\n        <li>Thiết kế thêm 2 đầu sấy tròn và vuông giúp sấy khô nhanh nhất</li>\n        <li>Công suất máy lớn 600W giúp sấy lông nhanh và tiết kiệm thời gian</li>\n        <li>Lược chải lông có nút ấn giúp việc gỡ bỏ lông dễ dàng</li>\n        <li>Lược chải lông thiết kế xoay 360 độ, giúp chải mọi vị trí trên cơ thể Boss dễ dàng</li>\n        <li>Cải tiến hệ thống ống gió truyền dẫn giúp tiết kiệm điện năng và giảm tiếng ồn</li>\n        <li>Mặt lược được thiết kế chuyên nghiệp để loại bỏ lông và da chết, bụi bẩn và làm bông lông</li>\n    </ul>\n\n\n<h5>Thông số kỹ thuật:</h5>\n    <ul>\n        <li>Chất liệu: Nhựa</li>\n        <li>Màu sắc: Trắng</li>\n        <li>Công suất: 600W</li>\n        <li>Kích thước: 25*12cm</li>\n    </ul>\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "Kuubia"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "material": {
+        "name": "Chất liệu",
+        "value": "Nhựa"
+      },
+      "color": {
+        "name": "Màu sắc",
+        "value": "trắng"
+      },
+      "weight": {
+        "name": "Trọng lượng",
+        "value": "370g"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "25 × 12cm"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 450199,
+        "variant_img": "SEO_Images/Products/P033/Máy-sấy-lông-thú-cưng-Kuubia-đa-năng-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 300000,
+    "product_sold_quantity": 189,
+    "product_rating": {
+      "rating_point": 4.8,
+      "rating_count": 168
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec50",
+    "product_name": "Nhà cho mèo 2 tầng Foldable Cat House",
+    "product_slug": "nha-cho-meo-2-tang-foldable-cat-house",
+    "category_id": "660c19756c72246fb20f3ea1",
+    "product_imgs": [
+      "SEO_Images/Products/P013/Nhà-cho-mèo-2-tầng-Foldable-1",
+      "SEO_Images/Products/P013/Nhà-cho-mèo-2-tầng-Foldable-2",
+      "SEO_Images/Products/P013/Nhà-cho-mèo-2-tầng-Foldable-3",
+      "SEO_Images/Products/P013/Nhà-cho-mèo-2-tầng-Foldable-4",
+      "SEO_Images/Products/P013/Nhà-cho-mèo-2-tầng-Foldable-5",
+      "SEO_Images/Products/P013/Nhà-cho-mèo-2-tầng-Foldable-6"
+    ],
+    "product_short_description": "Nhà cho mèo 2 tầng Foldable được làm bằng chất liệu vải cao cấp. Cấu trúc 2 tầng cao, rộng rãi, và chắc chắn, hoàn hảo cho đám mèo nhỏ thỏa sức chơi đùa.",
+    "product_description": "<h5>Sản phẩm Nhà mèo 2 tầng Foldable được làm bằng chất liệu vải cao cấp, thiết kế cho bốn mùa, hoàn hảo cho đám mèo nhỏ thỏa sức chơi đùa.</h5>\n<p>Đặc điểm nổi bật của nhà mèo:</p>\n<ul>\n<li>Cấu trúc ổn định: Nhà mèo có cấu trúc 2 tầng cao ráo, không gian trong phòng rộng rãi, khung nhà chắc chắn, đủ sức chứa 3-5 mèo nhỏ có cân nặng 5-10kg.</li>\n<li>Lắp đặt dễ dàng: Phù hợp cho các chuyến đi chơi, dã ngoại hoặc cắm trại, sản phẩm có thể gập lại, đủ để bạn mang theo khi di chuyển, dễ dàng cài đặt và tháo rời trong vòng vài giây mà không cần đến dụng cụ.</li>\n<li>Đệm dày, mềm mại: Nhà mèo được thiết kế để tạo sự thoải mái cho mèo cưng của bạn, được làm bằng chất liệu dày và thoáng khí, ấm áp vào mùa đông và ấm cúng vào mùa hè.</li>\n</ul>",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "OEM"
+      },
+      "country": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "size": {
+        "name": "Kích thước",
+        "value": "39 × 39 × 64cm"
+      },
+      "guarantee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 1890199,
+        "variant_img": "SEO_Images/Products/P013/Nhà-cho-mèo-2-tầng-Foldable-1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 1260000,
+    "product_sold_quantity": 797,
+    "product_rating": {
+      "rating_point": 4.1,
+      "rating_count": 604
+    }
+  },
+  {
+    "_id": "6617f0ede1d3208ee924ec59",
+    "product_name": "Bàn cào móng OEM, lõi rời, càng cua siêu dễ thương",
+    "product_slug": "ban-cao-mong-oem-loi-roi-cang-cua-sieu-de-thuong",
+    "category_id": "660c19756c72246fb20f3ea5",
+    "product_imgs": [
+      "SEO_Images/Products/P017/ban-cao-mong-oem-loi-roi-cang-cua-sieu-de-thuong_1",
+      "SEO_Images/Products/P017/ban-cao-mong-oem-loi-roi-cang-cua-sieu-de-thuong_2",
+      "SEO_Images/Products/P017/ban-cao-mong-oem-loi-roi-cang-cua-sieu-de-thuong_3"
+    ],
+    "product_short_description": "Đồ chơi cho mèo cưng, bàn cào móng OEM với giá ưu đãi, mua online tiện lợi. Giao hàng nhanh từ forcatshop. Khám phá ngay!",
+    "product_description": "<p>H&agrave;ng h&oacute;a: Phụ kiện cho m&egrave;o, Đồ chơi cho m&egrave;o, B&agrave;n c&agrave;o m&oacute;ng vuốt m&egrave;o.</p>\n<p>B&agrave;n c&agrave;o m&oacute;ng OEM l&agrave; sản phẩm được thiết kế đặc biệt để đ&aacute;p ứng nhu cầu c&agrave;o m&oacute;ng tự nhi&ecirc;n của m&egrave;o, gi&uacute;p bảo vệ đồ đạc trong nh&agrave; bạn v&agrave; mang lại cho m&egrave;o cưng m&ocirc;i trường vui chơi thoải m&aacute;i.</p>\n<p>Th&ocirc;ng tin sản phẩm:</p>\n<ul>\n<li>Chất liệu: carbon, xung quanh l&agrave; nhựa PP cao cấp.</li>\n<li>K&iacute;ch thước: đường k&iacute;ch 30 cm.</li>\n<li>Bao gồm: 1 l&otilde;i c&agrave;o giấy carbon, banh lục lạc c&oacute; đ&egrave;n, g&oacute;i cỏ catnip.</li>\n</ul>\n<p>Ưu điểm:</p>\n<ul>\n<li>Chất liệu nhựa cao cấp mang lại độ bền v&agrave; khả năng chống va đập tốt, đảm bảo bạn c&oacute; thể sử dụng sản phẩm n&agrave;y cho 1-2 con m&egrave;o m&agrave; kh&ocirc;ng lo hỏng h&oacute;c.</li>\n<li>B&agrave;n c&agrave;o m&oacute;ng được l&agrave;m từ giấy carbon cứng, tăng t&iacute;nh bền v&agrave; độ d&agrave;i sử dụng của sản phẩm.</li>\n<li>Thiết kế độc đ&aacute;o v&agrave; chất liệu cao cấp gi&uacute;p sản phẩm trở th&agrave;nh sự lựa chọn tốt nhất cho việc chăm s&oacute;c m&oacute;ng tay cho b&eacute; y&ecirc;u của bạn.</li>\n</ul>\n",
+    "product_specifications": {
+      "brand": {
+        "name": "Thương hiệu",
+        "value": "OEM"
+      },
+      "location": {
+        "name": "Xuất xứ",
+        "value": "Trung Quốc"
+      },
+      "guarentee": {
+        "name": "Bảo hành",
+        "value": "Không"
+      },
+      "radius": {
+        "name": "Đường kính",
+        "value": "30 (cm)"
+      },
+      "height": {
+        "name": "Chiều cao",
+        "value": "7 (cm)"
+      },
+      "weight": {
+        "name": "Cân nặng",
+        "value": "1 (kg)"
+      }
+    },
+    "product_variants": [
+      {
+        "variant_name": "Original",
+        "variant_slug": "original",
+        "variant_price": 96999,
+        "variant_img": "SEO_Images/Products/P017/ban-cao-mong-oem-loi-roi-cang-cua-sieu-de-thuong_1",
+        "variant_discount_percent": 10,
+        "variant_stock_quantity": 100
+      }
+    ],
+    "product_supp_price": 63000,
+    "product_sold_quantity": 967,
+    "product_rating": {
+      "rating_point": 4.5,
+      "rating_count": 623
+    }
+  }
+]

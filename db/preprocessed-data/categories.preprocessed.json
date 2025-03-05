@@ -1,0 +1,67 @@
+[
+    {
+        "_id": "660c19756c72246fb20f3e9a",
+        "category_name": "Hạt dinh dưỡng",
+        "category_img": "SEO_Images/Categories/Hạt-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3e9d",
+        "category_name": "Cát vệ sinh",
+        "category_img": "SEO_Images/Categories/Cát-vệ-sinh-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3e9e",
+        "category_name": "Nhà vệ sinh",
+        "category_img": "SEO_Images/Categories/Nhà-vệ-sinh-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3e9f",
+        "category_name": "Nệm, ổ, thảm",
+        "category_img": "SEO_Images/Categories/Ổ-nệm-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3ea0",
+        "category_name": "Bàn cào móng",
+        "category_img": "SEO_Images/Categories/Bàn-cào-móng-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3ea1",
+        "category_name": "Nhà cây",
+        "category_img": "SEO_Images/Categories/Nhà-cây-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3e9b",
+        "category_name": "Pate",
+        "category_img": "SEO_Images/Categories/Pate-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3ea3",
+        "category_name": "Vòng cổ, dây dắt",
+        "category_img": "SEO_Images/Categories/Vòng-cổ-dây-dắt-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3e9c",
+        "category_name": "Cỏ mèo",
+        "category_img": "SEO_Images/Categories/Cỏ-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3ea5",
+        "category_name": "Đồ chơi",
+        "category_img": "SEO_Images/Categories/Đồ-chơi-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3ea6",
+        "category_name": "Đồ vệ sinh",
+        "category_img": "SEO_Images/Categories/Đồ-vệ-sinh-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3ea2",
+        "category_name": "Quần áo",
+        "category_img": "SEO_Images/Categories/Quần-áo-cho-mèo"
+    },
+    {
+        "_id": "660c19756c72246fb20f3ea4",
+        "category_name": "Balo, Lồng",
+        "category_img": "SEO_Images/Categories/Balo-đựng-mèo"
+    }
+]
