@@ -8,40 +8,55 @@ import { decryptData, encryptData } from "../../utils/security.js";
 export const getUserCart = async (req, res, next) => {
   try {
     const userId = req.params.userId;
-    const localCart = req.body;
+    const localCart = req.body?.length ? req.body : []; // Nếu không có localCart, mặc định là mảng rỗng.
 
-    if (!userId || userId == "undefined") return ok(res, { user_cart: localCart });
+    if (!userId || userId === "undefined") {
+      return ok(res, { user_cart: localCart });
+    }
 
     const userInfo = await User.aggregate([
       { $match: { _id: new mongoose.Types.ObjectId(userId) } },
     ]);
 
-    if (!userInfo) return ok(res, { user_cart: localCart });
+    if (!userInfo || !userInfo.length) {
+      return ok(res, { user_cart: localCart });
+    }
 
-    const decryptedLocalCart = localCart.map((item) => ({
-      product_id: decryptData(item.product_hashed_id),
-      variant_id: item.variant_id,
-      quantity: item.quantity,
-    }));
     const userCart = userInfo[0].user_cart.map((item) => ({
       product_id: item.product_id.toString(),
       variant_id: item.variant_id.toString(),
       quantity: item.quantity,
     }));
 
+    // Nếu không có localCart, trả về giỏ hàng của user luôn
+    if (localCart.length === 0) {
+      return ok(res, {
+        user_cart: userCart.map((item) => ({
+          product_hashed_id: encryptData(item.product_id),
+          variant_id: item.variant_id,
+          quantity: item.quantity,
+        })),
+      });
+    }
+
+    // Nếu có localCart, hợp nhất với giỏ hàng của user
+    const decryptedLocalCart = localCart.map((item) => ({
+      product_id: decryptData(item.product_hashed_id),
+      variant_id: item.variant_id,
+      quantity: item.quantity,
+    }));
+
     const mergedCart = [...decryptedLocalCart, ...userCart];
 
-    // Sử dụng reduce để gom các sản phẩm trùng lặp lại.
+    // Gộp sản phẩm trùng nhau
     const cartData = mergedCart.reduce((acc, current) => {
       const existingProductIndex = acc.findIndex(
         (item) => item.variant_id === current.variant_id && item.product_id === current.product_id
       );
 
       if (existingProductIndex !== -1) {
-        // Nếu đã tồn tại trong giỏ hàng, cộng dồn số lượng.
         acc[existingProductIndex].quantity = current.quantity;
       } else {
-        // Nếu chưa tồn tại, thêm vào.
         acc.push({ ...current });
       }
 
@@ -134,56 +149,57 @@ export const putUserCart = async (req, res, next) => {
 
     if (!userId) return badRequest(res, "User id is required");
 
-    // Đảm bảo rằng cartProducts là một mảng hợp lệ
-    if (!Array.isArray(cartProducts) || cartProducts.length === 0) {
-      return badRequest(res, "Cart products are required");
+    // Kiểm tra cartProducts có phải là mảng hợp lệ không
+    if (!Array.isArray(cartProducts)) {
+      return badRequest(res, "Cart products must be an array");
     }
 
-    const cart = cartProducts.map((item) => ({
-      product_id: new mongoose.Types.ObjectId(decryptData(item.product_hashed_id)),
-      variant_id: new mongoose.Types.ObjectId(item.variant_id),
-      quantity: item.quantity,
-    }));
+    // Chuyển đổi dữ liệu giỏ hàng: giải mã product_hashed_id và chuyển sang ObjectId
+    const cart = cartProducts
+      .map((item) => {
+        const productId = decryptData(item.product_hashed_id);
+        if (!productId) return null; // Nếu giải mã thất bại, bỏ qua item này
+        return {
+          product_id: new mongoose.Types.ObjectId(productId),
+          variant_id: new mongoose.Types.ObjectId(item.variant_id),
+          quantity: item.quantity, // Có thể là số dương hoặc số âm (để cộng/trừ)
+        };
+      })
+      .filter((item) => item !== null); // Lọc bỏ các phần tử không hợp lệ
 
     // Tìm người dùng và lấy giỏ hàng hiện tại
     const user = await User.findById(userId);
     if (!user) return badRequest(res, "User not found");
 
-    // Cập nhật giỏ hàng bằng cách thêm hoặc cập nhật sản phẩm
-    const updatedCart = user.user_cart.map((existingItem) => {
-      const newProduct = cart.find(
-        (item) =>
-          item.product_id.equals(existingItem.product_id) &&
-          item.variant_id.equals(existingItem.variant_id)
+    let updatedCart = [...user.user_cart];
+
+    // Cập nhật số lượng nếu sản phẩm đã có, hoặc thêm sản phẩm mới
+    cart.forEach((newItem) => {
+      const index = updatedCart.findIndex(
+        (existingItem) =>
+          existingItem.product_id.equals(newItem.product_id) &&
+          existingItem.variant_id.equals(newItem.variant_id)
       );
-      if (newProduct) {
-        existingItem.quantity = newProduct.quantity; // Cập nhật số lượng nếu sản phẩm đã có
-        return existingItem;
+
+      if (index !== -1) {
+        // Nếu sản phẩm đã có, cộng dồn số lượng (sử dụng delta update)
+        updatedCart[index].quantity += newItem.quantity;
+      } else {
+        // Nếu sản phẩm chưa có, thêm vào giỏ hàng chỉ khi số lượng > 0
+        if (newItem.quantity > 0) {
+          updatedCart.push(newItem);
+        }
       }
-      return existingItem;
     });
 
-    // Thêm sản phẩm mới vào giỏ hàng nếu nó không có trong giỏ hàng cũ
-    const newItems = cart.filter(
-      (item) =>
-        !updatedCart.some(
-          (existingItem) =>
-            existingItem.product_id.equals(item.product_id) &&
-            existingItem.variant_id.equals(item.variant_id)
-        )
-    );
-    updatedCart.push(...newItems);
+    // Loại bỏ sản phẩm có số lượng <= 0
+    updatedCart = updatedCart.filter((item) => item.quantity > 0);
 
-    // Cập nhật giỏ hàng trong cơ sở dữ liệu
-    const updatedUser = await User.findByIdAndUpdate(
-      userId,
-      { user_cart: updatedCart },
-      { new: true }
-    );
+    // Cập nhật giỏ hàng trong database
+    user.user_cart = updatedCart;
+    await user.save();
 
-    if (!updatedUser) return badRequest(res, "Can not update user cart");
-
-    return ok(res, { user_cart: updatedUser.user_cart }, "User cart update successfully");
+    return ok(res, { user_cart: user.user_cart }, "User cart updated successfully");
   } catch (err) {
     console.error("Error in putUserCart:", err);
     return error(res, "Internal Server Error");
