@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import payos from "../../libs/payOS.js";
 import Order from "../../models/order.model.js";
+import User from "../../models/user.model.js";
 import { encryptData, decryptData } from "../../utils/security.js";
 import { SHIPPING_COST } from "../../utils/constants/index.js";
 
@@ -37,6 +38,11 @@ export const createPaymentLink = async (req, res) => {
         final_cost: finalCost,
       });
       await newOrder.save();
+
+      // Xóa sản phẩm khỏi giỏ hàng nếu mua từ giỏ hàng
+      if (paymentData.from_cart && paymentData.user_id) {
+        await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
+      }
 
       return res.status(200).json({
         message: "Order created successfully without payment link",
@@ -91,6 +97,11 @@ export const createPaymentLink = async (req, res) => {
           payment_link: paymentLink.checkoutUrl,
         });
         await newOrder.save();
+
+        // Xóa sản phẩm khỏi giỏ hàng nếu mua từ giỏ hàng
+        if (paymentData.from_cart && paymentData.user_id) {
+          await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
+        }
       } else {
         await Order.findOneAndUpdate(
           { _id: new mongoose.Types.ObjectId(paymentData._id) },
@@ -232,5 +243,37 @@ export const getPaymentLink = async (req, res) => {
   } catch (error) {
     console.error("Error fetching payment link:", error);
     res.status(500).json({ error: "An error occurred while fetching the payment link" });
+  }
+};
+
+const removePurchasedItemsFromCart = async (userId, orderProducts) => {
+  try {
+    console.log("User ID:", userId);
+
+    // Lấy giỏ hàng của user trước khi xóa
+    const user = await User.findById(userId);
+    console.log("User Cart Before:", user?.user_cart);
+
+    const variantIds = orderProducts.map((p) => new mongoose.Types.ObjectId(p.variant_id));
+    console.log("Variant IDs to remove:", variantIds);
+
+    const result = await User.updateOne(
+      { _id: new mongoose.Types.ObjectId(userId) },
+      {
+        $pull: {
+          user_cart: {
+            variant_id: { $in: variantIds },
+          },
+        },
+      }
+    );
+
+    console.log("Update Result:", result);
+
+    // Lấy giỏ hàng sau khi xóa
+    const updatedUser = await User.findById(userId);
+    console.log("User Cart After:", updatedUser?.user_cart);
+  } catch (error) {
+    console.error("Error removing purchased items from cart:", error);
   }
 };
