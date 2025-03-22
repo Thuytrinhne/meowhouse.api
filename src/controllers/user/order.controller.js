@@ -9,6 +9,7 @@ import { Readable } from "stream";
 export const getOrders = async (req, res) => {
   try {
     const user_id = req.user?.user_id; // Lấy user_id từ request
+    console.log("user id", user_id);
     if (!user_id) {
       return res.status(400).json({ success: false, message: "User ID is required." });
     }
