@@ -14,21 +14,18 @@ export const getUserCart = async (req, res, next) => {
       return ok(res, { user_cart: localCart });
     }
 
-    const userInfo = await User.aggregate([
-      { $match: { _id: new mongoose.Types.ObjectId(userId) } },
-    ]);
+    const userInfo = await User.findById(userId);
 
-    if (!userInfo || !userInfo.length) {
+    if (!userInfo) {
       return ok(res, { user_cart: localCart });
     }
 
-    const userCart = userInfo[0].user_cart.map((item) => ({
+    const userCart = userInfo.user_cart.map((item) => ({
       product_id: item.product_id.toString(),
       variant_id: item.variant_id.toString(),
       quantity: item.quantity,
     }));
 
-    // Nếu không có localCart, trả về giỏ hàng của user luôn
     if (localCart.length === 0) {
       return ok(res, {
         user_cart: userCart.map((item) => ({
@@ -39,7 +36,7 @@ export const getUserCart = async (req, res, next) => {
       });
     }
 
-    // Nếu có localCart, hợp nhất với giỏ hàng của user
+    // Giải mã giỏ hàng local
     const decryptedLocalCart = localCart.map((item) => ({
       product_id: decryptData(item.product_hashed_id),
       variant_id: item.variant_id,
@@ -48,14 +45,14 @@ export const getUserCart = async (req, res, next) => {
 
     const mergedCart = [...decryptedLocalCart, ...userCart];
 
-    // Gộp sản phẩm trùng nhau
+    // Gộp sản phẩm trùng nhau bằng cách cộng dồn số lượng
     const cartData = mergedCart.reduce((acc, current) => {
       const existingProductIndex = acc.findIndex(
         (item) => item.variant_id === current.variant_id && item.product_id === current.product_id
       );
 
       if (existingProductIndex !== -1) {
-        acc[existingProductIndex].quantity = current.quantity;
+        acc[existingProductIndex].quantity += current.quantity; // Cộng dồn số lượng sản phẩm
       } else {
         acc.push({ ...current });
       }
@@ -64,12 +61,21 @@ export const getUserCart = async (req, res, next) => {
     }, []);
 
     const cart = cartData.map((item) => ({
-      product_hashed_id: encryptData(item.product_id),
-      variant_id: item.variant_id,
+      product_id: new mongoose.Types.ObjectId(item.product_id),
+      variant_id: new mongoose.Types.ObjectId(item.variant_id),
       quantity: item.quantity,
     }));
 
-    return ok(res, { user_cart: cart });
+    // 🛠 **Cập nhật lại giỏ hàng vào MongoDB**
+    await User.updateOne({ _id: userId }, { $set: { user_cart: cart } });
+
+    return ok(res, {
+      user_cart: cart.map((item) => ({
+        product_hashed_id: encryptData(item.product_id.toString()),
+        variant_id: item.variant_id.toString(),
+        quantity: item.quantity,
+      })),
+    });
   } catch (err) {
     console.log("Error in getUserCart: ", err);
     return error(res, "Internal Server Error");
