@@ -34,8 +34,17 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Create HTTP server and integrate with Socket.io
+
 const server = createServer(app);
+// const io = new Server(server, {
+//   cors: {
+//     origin: process.env.FE_URL,
+//     methods: ["GET", "POST"],
+//   },
+// });
 const io = new Server(server, {
+  path: "/api/socket",
+  addTrailingSlash: false,
   cors: {
     origin: process.env.FE_URL,
     methods: ["GET", "POST"],
