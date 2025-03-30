@@ -4,9 +4,8 @@ import dotenv from "dotenv";
 import cookieParser from "cookie-parser";
 import bodyParser from "body-parser";
 import cors from "cors";
-import { createServer } from "http";
-import { Server } from "socket.io";
 import route from "./src/routes/index.js";
+import pusher from "./src/utils/pusher.js";
 
 const PORT = 8080;
 
@@ -32,37 +31,15 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-
-// Create HTTP server and integrate with Socket.io
-
-const server = createServer(app);
-// const io = new Server(server, {
-//   cors: {
-//     origin: process.env.FE_URL,
-//     methods: ["GET", "POST"],
-//   },
-// });
-const io = new Server(server, {
-  path: "/api/socket",
-  addTrailingSlash: false,
-  cors: {
-    origin: process.env.FE_URL,
-    methods: ["GET", "POST"],
-  },
+app.listen(PORT, () => {
+  console.log(`Server started on port ${PORT}`);
 });
 
-// Socket.io event handling
-io.on("connection", (socket) => {
-  console.log("Admin connected:", socket.id);
-
-  socket.on("newOrder", (order) => {
-    // Broadcast to all clients
-    io.emit("orderNotification", order);
-  });
-
-  socket.on("disconnect", () => {
-    console.log("Admin disconnected:", socket.id);
-  });
+// API để trigger sự kiện với Pusher (nếu cần)
+app.post("/api/trigger-event", async (req, res) => {
+  const { channel, event, data } = req.body;
+  await pusher.trigger(channel, event, data);
+  res.json({ success: true });
 });
 
 // Routes
@@ -79,10 +56,4 @@ app.use((err, req, res, next) => {
   });
 });
 
-// Start the server 8080
-server.listen(PORT, () => {
-  console.log(`🚀 Server running on http://localhost:${PORT}`);
-});
-
-export { io };
 export default app;
