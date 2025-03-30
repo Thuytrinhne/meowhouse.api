@@ -2,10 +2,11 @@ import mongoose from "mongoose";
 import payos from "../../libs/payOS.js";
 import Order from "../../models/order.model.js";
 import User from "../../models/user.model.js";
+import Notification from "../../models/notification.model.js";
 import { encryptData, decryptData } from "../../utils/security.js";
 import { SHIPPING_COST } from "../../utils/constants/index.js";
+import { io } from "../../../index.js";
 
-// Hàm xử lý tạo liên kết thanh toán
 export const createPaymentLink = async (req, res) => {
   try {
     // Lấy dữ liệu từ yêu cầu
@@ -20,8 +21,6 @@ export const createPaymentLink = async (req, res) => {
         0
       ) + SHIPPING_COST
     );
-    // console.log("Final Cost:", finalCost);
-    // console.log("Payment data:", paymentData);
 
     // Nếu phương thức thanh toán là COD, không tạo liên kết thanh toán
     if (paymentData.payment_method === "cod") {
@@ -43,6 +42,7 @@ export const createPaymentLink = async (req, res) => {
       if (paymentData.from_cart && paymentData.user_id) {
         await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
       }
+      await sendOrderNotification(newOrder);
 
       return res.status(200).json({
         message: "Order created successfully without payment link",
@@ -72,8 +72,6 @@ export const createPaymentLink = async (req, res) => {
         returnUrl: paymentData.return_url,
       };
 
-      // console.log("Order data:", order);
-
       // Gọi API PayOS để tạo liên kết thanh toán
       const paymentLink = await payos.createPaymentLink(order);
 
@@ -102,6 +100,8 @@ export const createPaymentLink = async (req, res) => {
         if (paymentData.from_cart && paymentData.user_id) {
           await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
         }
+
+        await sendOrderNotification(newOrder);
       } else {
         await Order.findOneAndUpdate(
           { _id: new mongoose.Types.ObjectId(paymentData._id) },
@@ -248,16 +248,10 @@ export const getPaymentLink = async (req, res) => {
 
 const removePurchasedItemsFromCart = async (userId, orderProducts) => {
   try {
-    console.log("User ID:", userId);
-
     // Lấy giỏ hàng của user trước khi xóa
-    const user = await User.findById(userId);
-    console.log("User Cart Before:", user?.user_cart);
-
     const variantIds = orderProducts.map((p) => new mongoose.Types.ObjectId(p.variant_id));
-    console.log("Variant IDs to remove:", variantIds);
 
-    const result = await User.updateOne(
+    await User.updateOne(
       { _id: new mongoose.Types.ObjectId(userId) },
       {
         $pull: {
@@ -267,13 +261,22 @@ const removePurchasedItemsFromCart = async (userId, orderProducts) => {
         },
       }
     );
-
-    console.log("Update Result:", result);
-
-    // Lấy giỏ hàng sau khi xóa
-    const updatedUser = await User.findById(userId);
-    console.log("User Cart After:", updatedUser?.user_cart);
   } catch (error) {
     console.error("Error removing purchased items from cart:", error);
   }
+};
+
+const sendOrderNotification = async (order) => {
+  // Create the notification in MongoDB
+  const newNotification = await Notification.create({
+    userId: order.user_id,
+    type: "order",
+    title: "New Order Received",
+    message: `Order #${order.order_id} has been placed and is awaiting payment`,
+    read: false,
+    actionUrl: `/admin/orders/${order.order_id}`,
+  });
+
+  // Emit notification to all admins
+  io.emit("orderNotification", newNotification);
 };

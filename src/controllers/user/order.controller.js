@@ -9,7 +9,6 @@ import { Readable } from "stream";
 export const getOrders = async (req, res) => {
   try {
     const user_id = req.user?.user_id; // Lấy user_id từ request
-    console.log("user id", user_id);
     if (!user_id) {
       return res.status(400).json({ success: false, message: "User ID is required." });
     }
@@ -228,9 +227,6 @@ export const getOrderById = async (req, res) => {
   try {
     const { id } = req.params;
     const user_id = req.user.user_id;
-
-    // console.log("Request Params ID:", id);
-    // console.log("User ID:", user_id);
 
     // Validate ID
     if (!mongoose.Types.ObjectId.isValid(id)) {
@@ -826,14 +822,6 @@ export const addProductRatingWithMedia = async (req, res) => {
     const user_id = req.user?.user_id;
     const images = req.files?.images || [];
     const videos = req.files?.videos || [];
-
-    // console.log("Hashed Order id: ", hashedOrderId);
-    // console.log("Product id: ", productId);
-    // console.log("Rating point: ", rating_point);
-    // console.log("Comment: ", comment);
-    // console.log("User id: ", user_id);
-    // console.log("Images received: ", images);
-    // console.log("Videos received: ", videos);
 
     // Giải mã hashedOrderId
     let orderId;

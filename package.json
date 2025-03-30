@@ -32,6 +32,8 @@
     "passport-google-oauth20": "^2.0.0",
     "path": "^0.12.7",
     "react-firebase-hooks": "^5.1.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
     "tweetnacl": "^1.0.3"
   },
   "devDependencies": {
