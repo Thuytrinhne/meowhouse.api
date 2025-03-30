@@ -21,8 +21,6 @@ export const createPaymentLink = async (req, res) => {
         0
       ) + SHIPPING_COST
     );
-    // console.log("Final Cost:", finalCost);
-    // console.log("Payment data:", paymentData);
 
     // Nếu phương thức thanh toán là COD, không tạo liên kết thanh toán
     if (paymentData.payment_method === "cod") {
@@ -44,19 +42,7 @@ export const createPaymentLink = async (req, res) => {
       if (paymentData.from_cart && paymentData.user_id) {
         await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
       }
-      // Tạo thông báo trong MongoDB
-      const newNotification = await Notification.create({
-        userId: newOrder.user_id, // ID admin nhận thông báo
-        type: "order",
-        title: "New Order Received",
-        message: `Order #${newOrder.order_id} has been placed and is awaiting processing`,
-        read: false,
-        actionUrl: `/admin/orders/${newOrder.order_id}`,
-      });
-
-      console.log("✅ Thông báo mới đã lưu vào DB:", newNotification);
-
-      io.emit("orderNotification", newNotification); // Gửi thông báo đến tất cả Admin
+      await sendOrderNotification(newOrder);
 
       return res.status(200).json({
         message: "Order created successfully without payment link",
@@ -86,8 +72,6 @@ export const createPaymentLink = async (req, res) => {
         returnUrl: paymentData.return_url,
       };
 
-      // console.log("Order data:", order);
-
       // Gọi API PayOS để tạo liên kết thanh toán
       const paymentLink = await payos.createPaymentLink(order);
 
@@ -116,6 +100,8 @@ export const createPaymentLink = async (req, res) => {
         if (paymentData.from_cart && paymentData.user_id) {
           await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
         }
+
+        await sendOrderNotification(newOrder);
       } else {
         await Order.findOneAndUpdate(
           { _id: new mongoose.Types.ObjectId(paymentData._id) },
@@ -278,4 +264,19 @@ const removePurchasedItemsFromCart = async (userId, orderProducts) => {
   } catch (error) {
     console.error("Error removing purchased items from cart:", error);
   }
+};
+
+const sendOrderNotification = async (order) => {
+  // Create the notification in MongoDB
+  const newNotification = await Notification.create({
+    userId: order.user_id,
+    type: "order",
+    title: "New Order Received",
+    message: `Order #${order.order_id} has been placed and is awaiting payment`,
+    read: false,
+    actionUrl: `/admin/orders/${order.order_id}`,
+  });
+
+  // Emit notification to all admins
+  io.emit("orderNotification", newNotification);
 };
