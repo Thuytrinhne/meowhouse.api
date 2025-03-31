@@ -5,7 +5,7 @@ import User from "../../models/user.model.js";
 import Notification from "../../models/notification.model.js";
 import { encryptData, decryptData } from "../../utils/security.js";
 import { SHIPPING_COST } from "../../utils/constants/index.js";
-import { io } from "../../../index.js";
+import pusher from "../../utils/pusher.js";
 
 export const createPaymentLink = async (req, res) => {
   try {
@@ -277,6 +277,6 @@ const sendOrderNotification = async (order) => {
     actionUrl: `/admin/orders/${order.order_id}`,
   });
 
-  // Emit notification to all admins
-  io.emit("orderNotification", newNotification);
+  // Gửi notification tới tất cả admin qua Pusher
+  await pusher.trigger("orders", "orderNotification", newNotification);
 };
