@@ -6,6 +6,7 @@ import groupsRouter from "./group.route.js";
 import categoryRouter from "./category.route.js";
 import articleRouter from "./article.route.js";
 import notificationRouter from "./notification.router.js";
+import orderRouter from "./order.route.js";
 
 const router = express.Router();
 
@@ -16,5 +17,6 @@ router.use("/groups", groupsRouter);
 router.use("/categories", categoryRouter);
 router.use("/articles", articleRouter);
 router.use("/notifications", notificationRouter);
+router.use("/orders", orderRouter);
 
 export default router;
