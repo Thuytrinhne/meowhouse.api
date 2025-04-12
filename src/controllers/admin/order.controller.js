@@ -1,10 +1,7 @@
+import { encryptData } from "../../utils/security.js";
 import Order from "../../models/order.model.js";
 import { ok, error, notFound, badRequest } from "../../handlers/respone.handler.js";
 import mongoose from "mongoose";
-import { decryptData, encryptData } from "../../utils/security.js";
-import cloudinary from "../../libs/cloudinary.js";
-import { Readable } from "stream";
-
 // [GET] /api/admin/orders
 export const getOrders = async (req, res) => {
   try {
@@ -120,7 +117,6 @@ export const getOrders = async (req, res) => {
         $group: {
           _id: "$_id",
           order_id: { $first: "$order_id" },
-          user_id: { $first: "$user_id" },
           order_buyer: { $first: "$order_buyer" },
           order_note: { $first: "$order_note" },
           shipping_cost: { $first: "$shipping_cost" },
@@ -210,5 +206,168 @@ export const getOrders = async (req, res) => {
   } catch (err) {
     console.error("Error in getOrders API:", err); // Log lỗi chi tiết
     return res.status(500).json({ success: false, message: "Internal server error" });
+  }
+};
+
+// [GET] /api/admin/orders/[:id]
+export const getOrderById = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    // Validate ID
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      console.error("Invalid order ID");
+      return error(res, "Invalid order ID");
+    }
+
+    const orderId = new mongoose.Types.ObjectId(id);
+
+    // Aggregation pipeline
+    const order = await Order.aggregate([
+      {
+        $match: {
+          _id: orderId,
+        },
+      },
+      {
+        $unwind: "$order_products",
+      },
+      {
+        $lookup: {
+          from: "products",
+          let: {
+            productId: "$order_products.product_id",
+            variantId: "$order_products.variant_id",
+          },
+          pipeline: [
+            {
+              $match: {
+                $expr: { $eq: ["$_id", "$$productId"] },
+              },
+            },
+            {
+              $project: {
+                _id: 1,
+                product_name: 1,
+                product_imgs: { $arrayElemAt: ["$product_imgs", 0] },
+                variant: {
+                  $arrayElemAt: [
+                    {
+                      $filter: {
+                        input: "$product_variants",
+                        as: "v",
+                        cond: { $eq: ["$$v._id", "$$variantId"] },
+                      },
+                    },
+                    0,
+                  ],
+                },
+              },
+            },
+          ],
+          as: "product_info",
+        },
+      },
+      {
+        $addFields: {
+          "order_products.product_name": {
+            $arrayElemAt: ["$product_info.product_name", 0],
+          },
+          "order_products.product_img": {
+            $arrayElemAt: ["$product_info.product_imgs", 0],
+          },
+          "order_products.variant_name": {
+            $arrayElemAt: ["$product_info.variant.variant_name", 0],
+          },
+          "order_products.variant_img": {
+            $arrayElemAt: ["$product_info.variant.variant_img", 0],
+          },
+        },
+      },
+      {
+        $group: {
+          _id: "$_id",
+          order_id: { $first: "$order_id" },
+          order_buyer: { $first: "$order_buyer" },
+          order_note: { $first: "$order_note" },
+          shipping_cost: { $first: "$shipping_cost" },
+          final_cost: { $first: "$final_cost" },
+          order_status: { $first: "$order_status" },
+          createdAt: { $first: "$createdAt" },
+          updatedAt: { $first: "$updatedAt" },
+          order_products: {
+            $push: {
+              product_id: "$order_products.product_id",
+              variant_id: "$order_products.variant_id",
+              quantity: "$order_products.quantity",
+              unit_price: "$order_products.unit_price",
+              discount_percent: "$order_products.discount_percent",
+              product_name: "$order_products.product_name",
+              product_img: "$order_products.product_img",
+              variant_name: "$order_products.variant_name",
+              variant_img: "$order_products.variant_img",
+            },
+          },
+        },
+      },
+    ]);
+
+    // Kiểm tra nếu không tìm thấy đơn hàng
+    if (!order || order.length === 0) {
+      console.error("Order not found with ID:", orderId);
+      return notFound(res, "Order not found");
+    }
+
+    // Log kết quả
+    // console.log("Order Found:", JSON.stringify(order[0], null, 2));
+    const enrichedOrder = {
+      ...order[0],
+      order_id_hashed: encryptData(order[0]._id.toString()), // Thêm hash ID tại đây
+    };
+    // Trả về kết quả
+    return ok(res, { order: enrichedOrder });
+  } catch (err) {
+    console.error("Error fetching order:", err);
+    if (err.name === "CastError") {
+      return error(res, "Invalid order ID");
+    }
+    return error(res, "Internal server error");
+  }
+};
+
+// [PUT] /api/admin/orders/:id/status
+export const updateOrderStatus = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { status } = req.body;
+
+    // Danh sách các trạng thái hợp lệ
+    const validStatuses = ["unpaid", "delivering", "delivered", "canceled"];
+
+    // Kiểm tra ID hợp lệ
+    if (!mongoose.Types.ObjectId.isValid(id)) {
+      return badRequest(res, "Invalid order ID");
+    }
+
+    // Kiểm tra status có nằm trong danh sách hợp lệ không
+    if (!validStatuses.includes(status)) {
+      return badRequest(res, `Invalid status. Valid statuses are: ${validStatuses.join(", ")}`);
+    }
+
+    // Cập nhật trạng thái
+    const updatedOrder = await Order.findByIdAndUpdate(
+      id,
+      { order_status: status, updatedAt: new Date() },
+      { new: true }
+    );
+
+    if (!updatedOrder) {
+      return notFound(res, "Order not found");
+    }
+
+    return ok(res, { message: "Order status updated successfully", order: updatedOrder });
+  } catch (err) {
+    console.error("Error updating order status:", err);
+    return error(res, "Internal server error");
   }
 };
