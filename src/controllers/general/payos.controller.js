@@ -35,6 +35,7 @@ export const createPaymentLink = async (req, res) => {
           };
         }),
         final_cost: finalCost,
+        payment_method: "cod",
       });
       await newOrder.save();
 
@@ -93,6 +94,7 @@ export const createPaymentLink = async (req, res) => {
           }),
           final_cost: finalCost,
           payment_link: paymentLink.checkoutUrl,
+          payment_method: "onl",
         });
         await newOrder.save();
 
