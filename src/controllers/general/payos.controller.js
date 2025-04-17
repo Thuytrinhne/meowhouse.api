@@ -276,7 +276,7 @@ const sendOrderNotification = async (order) => {
     title: "New Order Received",
     message: `Order #${order.order_id} has been placed and is awaiting payment`,
     read: false,
-    actionUrl: `/admin/orders/${order.order_id}`,
+    actionUrl: `/admin/orders/${order._id}`,
   });
 
   // Gửi notification tới tất cả admin qua Pusher
