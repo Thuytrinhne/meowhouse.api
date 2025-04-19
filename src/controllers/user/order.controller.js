@@ -23,6 +23,7 @@ export const getOrders = async (req, res) => {
       order_id = "",
       phone_number = "",
     } = req.query;
+    console.log(status);
 
     // Kiểm tra và chuyển đổi user_id sang ObjectId
     if (!mongoose.Types.ObjectId.isValid(user_id)) {

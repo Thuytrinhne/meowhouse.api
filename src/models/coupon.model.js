@@ -12,6 +12,9 @@ const couponSchema = new mongoose.Schema(
     coupon_stock_quantity: { type: Number, required: true }, // Số lượng mã giảm
     start_time: { type: Date, required: true }, // Thời gian mở lấy mã
     end_time: { type: Date, required: true }, // Thời gian đóng lấy mã
+    is_public: { type: Boolean, default: true }, // true = user tự thu thập
+    auto_assign: { type: Boolean, default: false }, // true = gán tự động theo điều kiện
+    active: { type: Boolean, default: true },
   },
   { timestamps: true }
 );
