@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 import payos from "../../libs/payOS.js";
 import Order from "../../models/order.model.js";
+import Coupon from "../../models/coupon.model.js";
 import User from "../../models/user.model.js";
 import Notification from "../../models/notification.model.js";
 import { encryptData, decryptData } from "../../utils/security.js";
@@ -11,15 +12,25 @@ export const createPaymentLink = async (req, res) => {
   try {
     // Lấy dữ liệu từ yêu cầu
     const paymentData = req.body;
-    // console.log("payyyyyyyyyy", paymentData);
+    const totalAmountBeforeDiscount = paymentData.order_products.reduce(
+      (acc, curr) =>
+        acc + curr.quantity * ((curr.unit_price * (100 - curr.discount_percent)) / 100),
+      0
+    );
+    // Lấy thông tin khuyến mãi
+    const { freeShippingCoupon, orderDiscountCoupon } = await extractCouponsFromHashedIds(
+      paymentData.applied_coupons,
+      totalAmountBeforeDiscount
+    );
+    const shippingDiscount = Math.min(freeShippingCoupon?.discount_amount || 0, SHIPPING_COST);
+    const orderDiscount = Math.min(
+      orderDiscountCoupon?.discount_amount || 0,
+      totalAmountBeforeDiscount
+    );
 
     // Tính toán chi phí cuối cùng
     const finalCost = Math.round(
-      paymentData.order_products.reduce(
-        (acc, curr) =>
-          acc + curr.quantity * ((curr.unit_price * (100 - curr.discount_percent)) / 100),
-        0
-      ) + SHIPPING_COST
+      totalAmountBeforeDiscount + SHIPPING_COST - shippingDiscount - orderDiscount
     );
 
     // Nếu phương thức thanh toán là COD, không tạo liên kết thanh toán
@@ -36,8 +47,12 @@ export const createPaymentLink = async (req, res) => {
         }),
         final_cost: finalCost,
         payment_method: "cod",
+        free_shipping_coupon: freeShippingCoupon,
+        order_coupon: orderDiscountCoupon,
       });
       await newOrder.save();
+      // trừ khuyến mãi
+      await decreaseCouponStock([freeShippingCoupon, orderDiscountCoupon]);
 
       // Xóa sản phẩm khỏi giỏ hàng nếu mua từ giỏ hàng
       if (paymentData.from_cart && paymentData.user_id) {
@@ -95,8 +110,12 @@ export const createPaymentLink = async (req, res) => {
           final_cost: finalCost,
           payment_link: paymentLink.checkoutUrl,
           payment_method: "onl",
+          freeShippingCoupon: freeShippingCoupon,
+          orderDiscountCoupon: orderDiscountCoupon,
         });
         await newOrder.save();
+        // trừ khuyến mãi
+        await decreaseCouponStock([freeShippingCoupon, orderDiscountCoupon]);
 
         // Xóa sản phẩm khỏi giỏ hàng nếu mua từ giỏ hàng
         if (paymentData.from_cart && paymentData.user_id) {
@@ -281,4 +300,78 @@ const sendOrderNotification = async (order) => {
 
   // Gửi notification tới tất cả admin qua Pusher
   await pusher.trigger("orders", "orderNotification", newNotification);
+};
+
+const extractCouponsFromHashedIds = async (hashedIds = [], totalAmount = 0) => {
+  if (!Array.isArray(hashedIds) || hashedIds.length === 0) {
+    return { freeShippingCoupon: null, orderDiscountCoupon: null };
+  }
+
+  let freeShippingCoupon = null;
+  let orderDiscountCoupon = null;
+
+  const coupons = await Promise.all(
+    hashedIds.map(async (hashedId) => {
+      try {
+        const decodedId = decryptData(decodeURIComponent(hashedId));
+        return await Coupon.findById(decodedId);
+      } catch (err) {
+        console.error("Failed to decode or find coupon:", err);
+        return null;
+      }
+    })
+  );
+
+  for (const coupon of coupons) {
+    if (!coupon) continue;
+
+    const discountAmount = calculateCouponDiscount(coupon, totalAmount);
+
+    const couponData = {
+      coupon_id: coupon._id,
+      coupon_name: coupon.coupon_name,
+      discount_amount: discountAmount,
+    };
+
+    if (coupon.coupon_type === "Free Ship") {
+      freeShippingCoupon = couponData;
+    } else if (coupon.coupon_type === "Order") {
+      orderDiscountCoupon = couponData;
+    }
+  }
+
+  return { freeShippingCoupon, orderDiscountCoupon };
+};
+// utils/coupon.js
+const calculateCouponDiscount = (coupon, totalAmount) => {
+  if (!coupon || !coupon.active) return 0;
+
+  if (coupon.coupon_condition > 0 && totalAmount < coupon.coupon_condition) return 0;
+
+  if (coupon.coupon_unit === "đ") {
+    return Math.min(coupon.coupon_value, totalAmount);
+  }
+
+  if (coupon.coupon_unit === "%") {
+    const discount = (coupon.coupon_value / 100) * totalAmount;
+    return Math.min(discount, coupon.coupon_max_value || discount);
+  }
+
+  return 0;
+};
+
+const decreaseCouponStock = async (coupons) => {
+  const usedCoupons = coupons.filter(Boolean); // loại bỏ null hoặc undefined
+
+  if (!usedCoupons.length) return;
+
+  await Promise.all(
+    usedCoupons.map((coupon) =>
+      Coupon.findByIdAndUpdate(
+        coupon.coupon_id,
+        { $inc: { coupon_stock_quantity: -1 } },
+        { new: true }
+      )
+    )
+  );
 };

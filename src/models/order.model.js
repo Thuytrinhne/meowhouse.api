@@ -38,7 +38,16 @@ const orderSchema = new mongoose.Schema(
     payment_method: { type: String, enum: ["cod", "onl"] },
     shipping_cost: { type: Number },
     final_cost: { type: Number },
-    applied_coupons: [{ type: mongoose.Schema.Types.ObjectId, ref: "Coupon" }],
+    order_coupon: {
+      coupon_id: { type: mongoose.Schema.Types.ObjectId, ref: "Coupon" },
+      coupon_name: { type: String },
+      discount_amount: { type: Number },
+    },
+    free_shipping_coupon: {
+      coupon_id: { type: mongoose.Schema.Types.ObjectId, ref: "Coupon" },
+      coupon_name: { type: String },
+      discount_amount: { type: Number },
+    },
     order_status: {
       type: String,
       enum: ["unpaid", "delivering", "delivered", "canceled"],

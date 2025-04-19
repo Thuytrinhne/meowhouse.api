@@ -33,7 +33,7 @@ export const getCoupons = async (req, res, next) => {
       return {
         ...coupon,
         _id: undefined,
-        coupon_id_hashed: encryptData(coupon._id.toString()),
+        coupon_hashed_id: encryptData(coupon._id.toString()),
         isOwned,
       };
     });
@@ -101,8 +101,8 @@ export const addCoupon = async (req, res, next) => {
     if (!userId) return badRequest(res, "User ID is required");
     // console.log("userId", userId);
 
-    const { coupon_id_hashed } = req.body;
-    if (!coupon_id_hashed) return badRequest(res, "Coupon ID is required");
+    const { coupon_hashed_id } = req.body;
+    if (!coupon_hashed_id) return badRequest(res, "Coupon ID is required");
     // console.log("coupon_id_hashed", coupon_id_hashed);
 
     // Lấy thông tin người dùng bằng findOne để tránh trả về mảng
@@ -110,7 +110,7 @@ export const addCoupon = async (req, res, next) => {
     if (!userInfo) return notFound(res, "User not found");
     // console.log("userInfo", userInfo);
 
-    const couponId = decryptData(coupon_id_hashed); // Giải mã coupon ID
+    const couponId = decryptData(coupon_hashed_id); // Giải mã coupon ID
     // console.log("couponId", couponId);
 
     // Kiểm tra nếu couponId đã tồn tại trong danh sách saved_coupons
