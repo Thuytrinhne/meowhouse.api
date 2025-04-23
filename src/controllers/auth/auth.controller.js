@@ -158,6 +158,7 @@ export const login = async (req, res) => {
         user_phone_number: user.user_phone_number || null,
         user_gender: user.user_gender || null,
         user_birth_day: user.user_birth_day || null,
+        membershipLevel: user.membership_level,
       },
       process.env.JWT_SECRET,
       { expiresIn: "1h" }
@@ -183,6 +184,7 @@ export const login = async (req, res) => {
         user_phone_number: user.user_phone_number || null,
         user_gender: user.user_gender || null,
         user_birth_day: user.user_birth_day || null,
+        membershipLevel: user.membership_level,
       },
       expiresIn: 3600, // 1 giờ
       refreshToken,
@@ -312,6 +314,7 @@ export const getMe = async (req, res) => {
         user_phone_number: user.user_phone_number || null,
         user_gender: user.user_gender || null,
         user_birth_day: user.user_birth_day || null,
+        membership_level: user.membership_level,
       },
       expiresIn: 3600, // 1 giờ
       refreshToken: user.refresh_token, // Thêm refresh token vào response

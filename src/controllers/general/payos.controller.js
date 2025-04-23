@@ -7,7 +7,7 @@ import Notification from "../../models/notification.model.js";
 import { encryptData, decryptData } from "../../utils/security.js";
 import { SHIPPING_COST } from "../../utils/constants/index.js";
 import pusher from "../../utils/pusher.js";
-
+import { updateUserAfterOrder } from "../../utils/membership.js";
 export const createPaymentLink = async (req, res) => {
   try {
     // Lấy dữ liệu từ yêu cầu
@@ -51,13 +51,14 @@ export const createPaymentLink = async (req, res) => {
         order_coupon: orderDiscountCoupon,
       });
       await newOrder.save();
-      // trừ khuyến mãi
+      // trừ số lượng tồn của khuyến mãi
       await decreaseCouponStock([freeShippingCoupon, orderDiscountCoupon]);
 
       // Xóa sản phẩm khỏi giỏ hàng nếu mua từ giỏ hàng
       if (paymentData.from_cart && paymentData.user_id) {
         await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
       }
+      // gửi thông báo real time
       await sendOrderNotification(newOrder);
 
       return res.status(200).json({
@@ -122,6 +123,7 @@ export const createPaymentLink = async (req, res) => {
           await removePurchasedItemsFromCart(paymentData.user_id, paymentData.order_products);
         }
 
+        // gửi thông báo real time
         await sendOrderNotification(newOrder);
       } else {
         await Order.findOneAndUpdate(

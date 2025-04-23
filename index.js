@@ -6,6 +6,7 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import route from "./src/routes/index.js";
 import pusher from "./src/utils/pusher.js";
+import { startAllCrons } from "./src/cronjobs/index.js";
 
 const PORT = 8080;
 
@@ -55,5 +56,7 @@ app.use((err, req, res, next) => {
     message,
   });
 });
+
+startAllCrons(); // kích hoạt tất cả cronjob khi app khởi động
 
 export default app;

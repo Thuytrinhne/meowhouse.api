@@ -58,5 +58,8 @@ const orderSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
+// Thêm compound index cho các trường `user_id`, `order_status`, `createdAt`
+orderSchema.index({ user_id: 1, order_status: 1, createdAt: -1 });
+
 const Order = mongoose.model("Order", orderSchema);
 export default Order;

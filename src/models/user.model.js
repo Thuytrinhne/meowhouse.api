@@ -32,6 +32,11 @@ const userSchema = new mongoose.Schema(
     ],
     user_role: { type: String, required: true },
     saved_coupons: [{ type: mongoose.Schema.Types.ObjectId, ref: "Coupon" }],
+    membership_level: {
+      type: String,
+      enum: ["bronze", "silver", "gold", "diamond"],
+      default: "bronze",
+    },
   },
   { timestamps: true }
 );
