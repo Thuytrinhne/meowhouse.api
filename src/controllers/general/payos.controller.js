@@ -12,6 +12,7 @@ export const createPaymentLink = async (req, res) => {
   try {
     // Lấy dữ liệu từ yêu cầu
     const paymentData = req.body;
+    console.log(paymentData);
     const totalAmountBeforeDiscount = paymentData.order_products.reduce(
       (acc, curr) =>
         acc + curr.quantity * ((curr.unit_price * (100 - curr.discount_percent)) / 100),
@@ -290,9 +291,11 @@ const removePurchasedItemsFromCart = async (userId, orderProducts) => {
 };
 
 const sendOrderNotification = async (order) => {
+  const isGuest = !order.user_id;
+
   // Create the notification in MongoDB
   const newNotification = await Notification.create({
-    userId: order.user_id,
+    userId: isGuest ? null : order.user_id,
     type: "order",
     title: "New Order Received",
     message: `Order #${order.order_id} has been placed and is awaiting payment`,

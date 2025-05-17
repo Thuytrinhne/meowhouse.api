@@ -4,6 +4,7 @@ import mongoose from "mongoose";
 import { decryptData, encryptData } from "../../utils/security.js";
 import cloudinary from "../../libs/cloudinary.js";
 import { Readable } from "stream";
+import Product from "../../models/product.model.js"; // Import model Product
 
 // [GET] /api/orders
 export const getOrders = async (req, res) => {
@@ -138,6 +139,7 @@ export const getOrders = async (req, res) => {
           final_cost: { $first: "$final_cost" },
           order_status: { $first: "$order_status" },
           createdAt: { $first: "$createdAt" },
+          order_rating: { $first: "$order_rating" },
           order_products: {
             $push: {
               product_id: "$order_products.product_id",
@@ -823,7 +825,7 @@ export const addProductRatingWithMedia = async (req, res) => {
     const user_id = req.user?.user_id;
     const images = req.files?.images || [];
     const videos = req.files?.videos || [];
-
+    console.log("đã vào");
     // Giải mã hashedOrderId
     let orderId;
     try {
@@ -908,6 +910,28 @@ export const addProductRatingWithMedia = async (req, res) => {
     await order.save();
 
     console.log("Rating added successfully for order:", orderId);
+
+    // Update Rating Product sau khi thêm vào Order thành công
+    await Product.findByIdAndUpdate(productId, {
+      $inc: { "product_rating.rating_count": 1 },
+      $set: {
+        "product_rating.rating_point": await calculateNewRating(productId, rating.rating_point),
+      },
+      $push: {
+        recent_reviews: {
+          user_id: user_id,
+          user_name: req.user.name, // hoặc lấy từ req.user nếu đã decode JWT
+          user_avt: req.user.avatar, // tương tự
+          review_date: new Date(),
+          variant_name: "Tên phân loại nào đó", // nếu cần
+          review_content: rating.comment,
+          review_imgs: uploadedImageUrls,
+          review_vids: uploadedVideoUrls,
+          rating_point: rating.rating_point,
+        },
+      },
+    });
+
     return res.status(200).json({ success: true, message: "Rating added successfully", rating });
   } catch (error) {
     console.error("Unexpected error in addProductRatingWithMedia:", error);
@@ -917,6 +941,8 @@ export const addProductRatingWithMedia = async (req, res) => {
 
 // [GET] "/api/orders/rating/getContent"
 export const getOrderRatings = async (req, res) => {
+  console.log("đã vào 2");
+
   try {
     const { hashedId } = req.params; // Lấy `hashedId` từ URL params
     const user_id = req.user?.user_id; // Xác định người dùng từ middleware xác thực
@@ -970,4 +996,18 @@ export const getOrderRatings = async (req, res) => {
       message: "Internal server error",
     });
   }
+};
+
+export const calculateNewRating = async (productId, newRating) => {
+  // Lấy thông tin rating hiện tại
+  const product = await Product.findById(productId).select("product_rating");
+
+  if (!product || !product.product_rating) return newRating; // fallback nếu không có dữ liệu cũ
+
+  const currentAverage = product.product_rating.rating_point ?? 0;
+  const currentCount = product.product_rating.rating_count ?? 0;
+
+  const updatedAverage = (currentAverage * currentCount + newRating) / (currentCount + 1);
+
+  return parseFloat(updatedAverage.toFixed(2)); // làm tròn 2 chữ số
 };
