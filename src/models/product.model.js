@@ -124,6 +124,10 @@ const productSchema = new mongoose.Schema(
             type: String,
           },
         ],
+        rating_point: {
+          type: Number,
+          required: true,
+        },
       },
     ],
   },
