@@ -37,18 +37,22 @@ export const getPointSummary = async (req, res) => {
   }
 };
 
-// GET /points/history
+// GET /points/history?type=earn|use
 export const getPointHistory = async (req, res) => {
   try {
     const user_id = req.user.user_id;
-    const { page = 1, limit = 10 } = req.query;
+    const { page = 1, limit = 10, type } = req.query;
 
-    const transactions = await PointTransaction.find({ user_id })
+    const query = { user_id };
+    if (type === "earn") query.amount = { $gt: 0 };
+    if (type === "use") query.amount = { $lt: 0 };
+
+    const transactions = await PointTransaction.find(query)
       .sort({ createdAt: -1 })
       .skip((page - 1) * limit)
       .limit(Number(limit));
 
-    const total = await PointTransaction.countDocuments({ user_id });
+    const total = await PointTransaction.countDocuments(query);
 
     res.status(200).json({
       success: true,
