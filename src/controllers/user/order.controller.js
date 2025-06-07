@@ -821,7 +821,7 @@ const uploadFileToCloudinary = async (fileBuffer, folder, resourceType = "image"
 export const addProductRatingWithMedia = async (req, res) => {
   try {
     const { pid: hashedOrderId, productId } = req.params;
-    const { rating_point, comment } = req.body;
+    const { rating_point, comment, variantId } = req.body;
     const user_id = req.user?.user_id;
     const images = req.files?.images || [];
     const videos = req.files?.videos || [];
@@ -911,6 +911,12 @@ export const addProductRatingWithMedia = async (req, res) => {
 
     console.log("Rating added successfully for order:", orderId);
 
+    const product = await Product.findById(productId);
+    const matchedVariant = product?.product_variants.find(
+      (v) => v._id.toString() === variantId.toString()
+    );
+    const variantName = matchedVariant?.variant_name || "Không rõ phân loại";
+    console.log("variant name", variantName);
     // Update Rating Product sau khi thêm vào Order thành công
     await Product.findByIdAndUpdate(productId, {
       $inc: { "product_rating.rating_count": 1 },
@@ -923,7 +929,7 @@ export const addProductRatingWithMedia = async (req, res) => {
           user_name: req.user.name, // hoặc lấy từ req.user nếu đã decode JWT
           user_avt: req.user.avatar, // tương tự
           review_date: new Date(),
-          variant_name: "Tên phân loại nào đó", // nếu cần
+          variant_name: variantName, // nếu cần
           review_content: rating.comment,
           review_imgs: uploadedImageUrls,
           review_vids: uploadedVideoUrls,

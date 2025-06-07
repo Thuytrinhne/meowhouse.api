@@ -7,7 +7,8 @@ import Notification from "../../models/notification.model.js";
 import { encryptData, decryptData } from "../../utils/security.js";
 import { SHIPPING_COST } from "../../utils/constants/index.js";
 import pusher from "../../utils/pusher.js";
-import { updateUserAfterOrder } from "../../utils/membership.js";
+import Product from "../../models/product.model.js";
+
 export const createPaymentLink = async (req, res) => {
   try {
     // Lấy dữ liệu từ yêu cầu
@@ -52,6 +53,15 @@ export const createPaymentLink = async (req, res) => {
         order_coupon: orderDiscountCoupon,
       });
       await newOrder.save();
+      // Cập nhật lượt bán cho mỗi sản phẩm trong giỏ hàng
+      await Promise.all(
+        paymentData.order_products.map(async (product) => {
+          const productId = decryptData(decodeURIComponent(product.product_hashed_id));
+          await Product.findByIdAndUpdate(productId, {
+            $inc: { product_sold_quantity: product.quantity },
+          });
+        })
+      );
       // trừ số lượng tồn của khuyến mãi
       await decreaseCouponStock([freeShippingCoupon, orderDiscountCoupon]);
 
@@ -116,6 +126,17 @@ export const createPaymentLink = async (req, res) => {
           orderDiscountCoupon: orderDiscountCoupon,
         });
         await newOrder.save();
+
+        // Cập nhật lượt bán cho mỗi sản phẩm trong giỏ hàng
+        await Promise.all(
+          paymentData.order_products.map(async (product) => {
+            const productId = decryptData(decodeURIComponent(product.product_hashed_id));
+            await Product.findByIdAndUpdate(productId, {
+              $inc: { product_sold_quantity: product.quantity },
+            });
+          })
+        );
+
         // trừ khuyến mãi
         await decreaseCouponStock([freeShippingCoupon, orderDiscountCoupon]);
 
