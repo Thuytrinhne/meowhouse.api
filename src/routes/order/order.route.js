@@ -18,10 +18,10 @@ const upload = multer();
 // Route không cần xác thực
 router.get("/track", trackOrder);
 router.get("/getOrder/:orderId", getOrderByOrderId);
-router.put("/cancel/:orderId", cancelOrder);
 
 // Các routes khác cần xác thực token
 router.use(verifyToken);
+router.put("/cancel/:orderId", cancelOrder);
 router.get("/", getOrders);
 router.get("/:id", getOrderById);
 router.get("/rating/:hashedId", getOrderByHashedId);

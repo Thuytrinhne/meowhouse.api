@@ -1,5 +1,6 @@
 import { encryptData } from "../../utils/security.js";
 import Order from "../../models/order.model.js";
+import Product from "../../models/product.model.js";
 import { ok, error, notFound, badRequest } from "../../handlers/respone.handler.js";
 import mongoose from "mongoose";
 // [GET] /api/admin/orders
@@ -353,6 +354,14 @@ export const updateOrderStatus = async (req, res) => {
     if (!validStatuses.includes(status)) {
       return badRequest(res, `Invalid status. Valid statuses are: ${validStatuses.join(", ")}`);
     }
+    const order = await Order.findById(id);
+    if (!order) {
+      return notFound(res, "Order not found");
+    }
+
+    if (status === "canceled") {
+      await increaseVariantStock(order.order_products);
+    }
 
     // Cập nhật trạng thái
     const updatedOrder = await Order.findByIdAndUpdate(
@@ -370,4 +379,17 @@ export const updateOrderStatus = async (req, res) => {
     console.error("Error updating order status:", err);
     return error(res, "Internal server error");
   }
+};
+
+// Tăng tồn kho variant khi đơn bị hủy
+const increaseVariantStock = async (orderProducts) => {
+  await Promise.all(
+    orderProducts.map(async (product) => {
+      const variantId = new mongoose.Types.ObjectId(product.variant_id);
+      await Product.updateOne(
+        { "product_variants._id": variantId },
+        { $inc: { "product_variants.$.variant_stock_quantity": product.quantity } }
+      );
+    })
+  );
 };

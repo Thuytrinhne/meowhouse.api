@@ -640,6 +640,8 @@ export const cancelOrder = async (req, res) => {
         message: "Order not found or you don't have permission to update this order.",
       });
     }
+    //Tăng tồn kho trước khi cập nhật trạng thái
+    await increaseVariantStock(order.order_products);
 
     // Cập nhật trạng thái đơn hàng thành "Đã hủy"
     await Order.updateOne(
@@ -652,6 +654,19 @@ export const cancelOrder = async (req, res) => {
     console.error("Error updating order status:", err);
     return error(res, { success: false, message: "Internal server error" });
   }
+};
+
+// Tăng tồn kho variant khi đơn bị hủy
+const increaseVariantStock = async (orderProducts) => {
+  await Promise.all(
+    orderProducts.map(async (product) => {
+      const variantId = new mongoose.Types.ObjectId(product.variant_id);
+      await Product.updateOne(
+        { "product_variants._id": variantId },
+        { $inc: { "product_variants.$.variant_stock_quantity": product.quantity } }
+      );
+    })
+  );
 };
 
 // [GET] /api/orders/[:hashed_id]
