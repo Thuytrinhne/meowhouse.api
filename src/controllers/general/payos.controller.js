@@ -53,6 +53,8 @@ export const createPaymentLink = async (req, res) => {
         order_coupon: orderDiscountCoupon,
       });
       await newOrder.save();
+      // Trừ tồn kho cho từng variant
+      await decreaseVariantStock(paymentData.order_products);
       // Cập nhật lượt bán cho mỗi sản phẩm trong giỏ hàng
       await Promise.all(
         paymentData.order_products.map(async (product) => {
@@ -126,8 +128,10 @@ export const createPaymentLink = async (req, res) => {
           orderDiscountCoupon: orderDiscountCoupon,
         });
         await newOrder.save();
+        // Trừ tồn kho cho từng variant
+        await decreaseVariantStock(paymentData.order_products);
 
-        // Cập nhật lượt bán cho mỗi sản phẩm trong giỏ hàng
+        // Cập nhật lượt bán product_sold_quantity cho mỗi sản phẩm trong giỏ hàng
         await Promise.all(
           paymentData.order_products.map(async (product) => {
             const productId = decryptData(decodeURIComponent(product.product_hashed_id));
@@ -399,5 +403,20 @@ const decreaseCouponStock = async (coupons) => {
         { new: true }
       )
     )
+  );
+};
+
+// Hàm phụ để giảm tồn kho variant
+const decreaseVariantStock = async (orderProducts) => {
+  await Promise.all(
+    orderProducts.map(async (product) => {
+      const variantId = new mongoose.Types.ObjectId(
+        product.variant_id // hoặc product.variant_id nếu có
+      );
+      await Product.updateOne(
+        { "product_variants._id": variantId },
+        { $inc: { "product_variants.$.variant_stock_quantity": -product.quantity } }
+      );
+    })
   );
 };
