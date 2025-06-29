@@ -9,7 +9,7 @@ import passport from "../passport.js";
 import userRouter from "./user/user.route.js";
 import locationRouter from "./location/location.route.js";
 import pointRouter from "./point/point.route.js";
-import rewardRouter from "./reward/reward.route.js";
+import rewardRouter from "./admin/statistic.route.js";
 
 const route = (app) => {
   app.get("/", (req, res) => res.send("Express on Vercel"));
