@@ -7,6 +7,7 @@ import categoryRouter from "./category.route.js";
 import articleRouter from "./article.route.js";
 import notificationRouter from "./notification.router.js";
 import orderRouter from "./order.route.js";
+import statisticRouter from "./statistic.route.js";
 
 const router = express.Router();
 
@@ -18,5 +19,6 @@ router.use("/categories", categoryRouter);
 router.use("/articles", articleRouter);
 router.use("/notifications", notificationRouter);
 router.use("/orders", orderRouter);
+router.use("/statistic", statisticRouter);
 
 export default router;
